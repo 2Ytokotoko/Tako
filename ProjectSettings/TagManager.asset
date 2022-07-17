@@ -3,12 +3,50 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Guzai
+  - Point
+  - Ground
+  - Dontgo
+  - STOP
+  - Bento
+  - One
+  - Four
+  - KARAAGE
+  - EBIHURAI
+  - TOMATO
+  - TAMAGOYAKI
+  - BUROKKORII
+  - TAKO
+  - 222
+  - 444
+  - 122
+  - Hantei
+  - UI
+  - 422
+  - MIITOBOURU
+  - SYUUMAI
+  - 424
+  - 324
+  - NAPORITANN
+  - HANNBAAGU
+  - BUROKKORII2
+  - 426
+  - EBIHURAI2
+  - datuTAMAGOYAKI
+  - datuTOMATO
+  - datuKARAAGE
+  - datuMIITOBOURU
+  - datuSYUUMAI
+  - datuNAPORITANN
+  - datuHANNBAAGU
+  - datuBUROKKORII
+  - datuEBIHURAI
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Guzai
   - Water
   - UI
   - 

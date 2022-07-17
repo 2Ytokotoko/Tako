@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/\u03B1/SyuuseiBan/Start+Mainmenu.unity"
+    guid: e561703b6cdd20d48abfc2e8870c14f5
+  - enabled: 1
+    path: "Assets/Scenes/\u03B1/SyuuseiBan/StageSelect.unity"
+    guid: 7e7896747a7338e42a6a42d306cfc24e
+  - enabled: 1
+    path: "Assets/Scenes/\u03B1/SyuuseiBan/Game.unity"
+    guid: 56e68fbb732b0dc4cb47fc851fbfec0b
   m_configObjects: {}

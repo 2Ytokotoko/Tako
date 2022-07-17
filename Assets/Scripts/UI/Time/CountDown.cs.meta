@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2ba2c8096af21f34a934249329fdab11
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - timeText: {instanceID: 0}
+  - Stop: {instanceID: 0}
+  - Pause: {instanceID: 0}
+  - Continuation: {instanceID: 0}
+  - PauseScreen: {instanceID: 0}
+  - Detail: {fileID: 919132149155446097, guid: 2287dc18a02567b4799c27642952a88a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
