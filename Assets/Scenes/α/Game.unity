@@ -671,12 +671,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &12808813
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,12 +784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &13755009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,12 +1358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &32373011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,12 +1471,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &34206694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,12 +1586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &38857714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,8 +1958,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 1367207640}
-  TargetObject: {fileID: 0}
   Tag: 222
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!54 &47639078
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2022,6 +2011,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!114 &47639083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,12 +2145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &50142120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,12 +2652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &58886496
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,12 +3490,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &82053369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3662,12 +3648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &83187684
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,12 +4123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &89629703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4468,12 +4448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &106470670
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,12 +4844,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &118427422
 GameObject:
   m_ObjectHideFlags: 0
@@ -4985,12 +4959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &118916107
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,12 +5371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &125237156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,12 +5567,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee89b82be79cc6f468ed62d6848e5f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 128131288}
+  scoreText: {fileID: 0}
+  score: 150
   KARAAGE: 30
   EBIHURAI: 30
+  HANBAAGU: 70
+  SYUUMAI: 15
   TOMATO: 10
   TAMAGOYAKI: 40
   BUROKKORII: 20
+  MIITOBOURU: 10
+  NAPORITANN: 35
   TAKO: 20
 --- !u!1 &128462255
 GameObject:
@@ -5755,12 +5728,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdown: 30
-  timeText: {fileID: 128462258}
+  timeText: {fileID: 0}
   Stop: {fileID: 1943268378}
   Pause: {fileID: 2039426547}
   Continuation: {fileID: 710041201}
   PauseScreen: {fileID: 911593816}
-  HyoukaB: {fileID: 1808545568}
+  se1: {fileID: 0}
+  se2: {fileID: 0}
 --- !u!1 &131398109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,12 +5847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &137360341
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,12 +6057,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &142107980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6829,12 +6797,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &168465814
 GameObject:
   m_ObjectHideFlags: 0
@@ -7823,12 +7788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &186736635
 GameObject:
   m_ObjectHideFlags: 0
@@ -7941,12 +7903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &189649089
 GameObject:
   m_ObjectHideFlags: 0
@@ -8057,12 +8016,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &190539267
 GameObject:
   m_ObjectHideFlags: 0
@@ -8385,12 +8341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &194211464
 GameObject:
   m_ObjectHideFlags: 0
@@ -8501,12 +8454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &196088575
 GameObject:
   m_ObjectHideFlags: 0
@@ -8619,12 +8569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &200237700
 GameObject:
   m_ObjectHideFlags: 0
@@ -8874,12 +8821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &211908767
 GameObject:
   m_ObjectHideFlags: 0
@@ -8992,12 +8936,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &213918078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9491,12 +9432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &230399606
 GameObject:
   m_ObjectHideFlags: 0
@@ -9609,12 +9547,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &230497516
 GameObject:
   m_ObjectHideFlags: 0
@@ -9727,12 +9662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &231816377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9843,12 +9775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &233975087
 GameObject:
   m_ObjectHideFlags: 0
@@ -10056,12 +9985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &237646486
 GameObject:
   m_ObjectHideFlags: 0
@@ -10174,12 +10100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &238636787
 GameObject:
   m_ObjectHideFlags: 0
@@ -10796,12 +10719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &258551224
 GameObject:
   m_ObjectHideFlags: 0
@@ -10912,12 +10832,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &258570361
 GameObject:
   m_ObjectHideFlags: 0
@@ -11285,12 +11202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &273338741
 GameObject:
   m_ObjectHideFlags: 0
@@ -11531,12 +11445,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &279851064
 GameObject:
   m_ObjectHideFlags: 0
@@ -12028,12 +11939,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &289959540
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,12 +12151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &290920216
 GameObject:
   m_ObjectHideFlags: 0
@@ -12408,12 +12313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &296319783
 GameObject:
   m_ObjectHideFlags: 0
@@ -12526,12 +12428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &297380751
 GameObject:
   m_ObjectHideFlags: 0
@@ -12642,12 +12541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &298318611
 GameObject:
   m_ObjectHideFlags: 0
@@ -13080,12 +12976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &318844205
 GameObject:
   m_ObjectHideFlags: 0
@@ -13196,12 +13089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &320888804
 GameObject:
   m_ObjectHideFlags: 0
@@ -13564,12 +13454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &330512311
 GameObject:
   m_ObjectHideFlags: 0
@@ -13779,12 +13666,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &344508444
 GameObject:
   m_ObjectHideFlags: 0
@@ -14128,12 +14012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &352593994
 GameObject:
   m_ObjectHideFlags: 0
@@ -14343,12 +14224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &359100053
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,12 +14382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &365232530
 GameObject:
   m_ObjectHideFlags: 0
@@ -14620,12 +14495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &368409982
 GameObject:
   m_ObjectHideFlags: 0
@@ -14781,12 +14653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &373133525
 GameObject:
   m_ObjectHideFlags: 0
@@ -14897,12 +14766,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &373455140
 GameObject:
   m_ObjectHideFlags: 0
@@ -15241,12 +15107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &382062979
 GameObject:
   m_ObjectHideFlags: 0
@@ -15357,12 +15220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &387935957
 GameObject:
   m_ObjectHideFlags: 0
@@ -15767,12 +15627,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &399712715
 GameObject:
   m_ObjectHideFlags: 0
@@ -15930,12 +15787,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &408470870
 GameObject:
   m_ObjectHideFlags: 0
@@ -16660,12 +16514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &426706594
 GameObject:
   m_ObjectHideFlags: 0
@@ -16809,12 +16660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &428055339
 GameObject:
   m_ObjectHideFlags: 0
@@ -17645,12 +17493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &452509019
 GameObject:
   m_ObjectHideFlags: 0
@@ -17761,12 +17606,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &453906078
 GameObject:
   m_ObjectHideFlags: 0
@@ -18247,12 +18089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &470061598
 GameObject:
   m_ObjectHideFlags: 0
@@ -18460,12 +18299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &482599661
 GameObject:
   m_ObjectHideFlags: 0
@@ -18817,12 +18653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &491917447
 GameObject:
   m_ObjectHideFlags: 0
@@ -19032,12 +18865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &504628776
 GameObject:
   m_ObjectHideFlags: 0
@@ -19551,12 +19381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &516581984
 GameObject:
   m_ObjectHideFlags: 0
@@ -20096,12 +19923,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee89b82be79cc6f468ed62d6848e5f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 128131288}
+  scoreText: {fileID: 0}
+  score: 150
   KARAAGE: 30
   EBIHURAI: 30
+  HANBAAGU: 70
+  SYUUMAI: 15
   TOMATO: 10
   TAMAGOYAKI: 40
   BUROKKORII: 20
+  MIITOBOURU: 10
+  NAPORITANN: 35
   TAKO: 20
 --- !u!114 &526203440
 MonoBehaviour:
@@ -20115,12 +19947,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b3eeb3ed19f204aab6df2e52400eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1973441791}
+  scoreText: {fileID: 0}
+  score: 20
   KARAAGE: 70
   EBIHURAI: 100
+  HANBAAGU: 100
+  SYUUMAI: 15
   TOMATO: 5
   TAMAGOYAKI: 20
   BUROKKORII: 10
+  MIITOBOURU: 20
+  NAPORITANN: 65
   TAKO: 20
 --- !u!114 &526203441
 MonoBehaviour:
@@ -20134,13 +19971,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19173f9dde674d24b81c6597849c4cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1129176217}
-  Kscore: 0
+  scoreText: {fileID: 0}
+  score: 0
   KARAAGE: 70
   EBIHURAI: 100
+  HANBAAGU: 130
+  SYUUMAI: 25
   TOMATO: 5
   TAMAGOYAKI: 20
   BUROKKORII: 10
+  MIITOBOURU: 25
+  NAPORITANN: 50
   TAKO: 20
 --- !u!4 &526203442
 Transform:
@@ -20269,12 +20110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &528728914
 GameObject:
   m_ObjectHideFlags: 0
@@ -20759,12 +20597,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &547325155
 GameObject:
   m_ObjectHideFlags: 0
@@ -21371,12 +21206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &562456297
 GameObject:
   m_ObjectHideFlags: 0
@@ -21431,7 +21263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64284ddbc605b74abe56f6274d560c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hyouka: {fileID: 1638295268}
+  Hyouka: {fileID: 0}
   GameUI: {fileID: 68282412}
   ResultUI: {fileID: 900950645}
   HYOUKA: 10
@@ -21653,12 +21485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &562710842
 GameObject:
   m_ObjectHideFlags: 0
@@ -22090,12 +21919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &578391135
 GameObject:
   m_ObjectHideFlags: 0
@@ -22286,12 +22112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &581393718
 GameObject:
   m_ObjectHideFlags: 0
@@ -22402,12 +22225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &581750531
 GameObject:
   m_ObjectHideFlags: 0
@@ -23129,12 +22949,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &597897545
 GameObject:
   m_ObjectHideFlags: 0
@@ -23292,12 +23109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &599048283
 GameObject:
   m_ObjectHideFlags: 0
@@ -23607,12 +23421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &607515485
 GameObject:
   m_ObjectHideFlags: 0
@@ -23917,12 +23728,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &617265211
 GameObject:
   m_ObjectHideFlags: 0
@@ -24033,12 +23841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &619011556
 GameObject:
   m_ObjectHideFlags: 0
@@ -24929,12 +24734,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &633874054
 GameObject:
   m_ObjectHideFlags: 0
@@ -25047,12 +24849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &634921479
 GameObject:
   m_ObjectHideFlags: 0
@@ -25165,12 +24964,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &636949640
 GameObject:
   m_ObjectHideFlags: 0
@@ -25281,12 +25077,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &640087147
 GameObject:
   m_ObjectHideFlags: 0
@@ -25593,12 +25386,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &648102357
 GameObject:
   m_ObjectHideFlags: 0
@@ -25808,12 +25598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &652386100
 GameObject:
   m_ObjectHideFlags: 0
@@ -26263,12 +26050,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &666318863
 GameObject:
   m_ObjectHideFlags: 0
@@ -26426,12 +26210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &670432942
 GameObject:
   m_ObjectHideFlags: 0
@@ -26902,12 +26683,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &678540138
 GameObject:
   m_ObjectHideFlags: 0
@@ -27719,12 +27497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &695141180
 GameObject:
   m_ObjectHideFlags: 0
@@ -28251,12 +28026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &710041201
 GameObject:
   m_ObjectHideFlags: 0
@@ -28598,12 +28370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &714438973
 GameObject:
   m_ObjectHideFlags: 0
@@ -28930,12 +28699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &730392988
 GameObject:
   m_ObjectHideFlags: 0
@@ -29048,12 +28814,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &732065798
 GameObject:
   m_ObjectHideFlags: 0
@@ -29209,12 +28972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &743416891
 GameObject:
   m_ObjectHideFlags: 0
@@ -29807,12 +29567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &758604008
 GameObject:
   m_ObjectHideFlags: 0
@@ -30291,12 +30048,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &770876922
 GameObject:
   m_ObjectHideFlags: 0
@@ -30761,12 +30515,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &797219089
 GameObject:
   m_ObjectHideFlags: 0
@@ -31267,12 +31018,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &801857442
 GameObject:
   m_ObjectHideFlags: 0
@@ -31480,12 +31228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &808992477
 GameObject:
   m_ObjectHideFlags: 0
@@ -31596,12 +31341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &810586196
 GameObject:
   m_ObjectHideFlags: 0
@@ -31712,12 +31454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &810987403
 GameObject:
   m_ObjectHideFlags: 0
@@ -32067,12 +31806,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &816016669
 GameObject:
   m_ObjectHideFlags: 0
@@ -32280,12 +32016,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1001 &817808595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32936,12 +32669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &843708716
 GameObject:
   m_ObjectHideFlags: 0
@@ -33149,12 +32879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &852028420
 GameObject:
   m_ObjectHideFlags: 0
@@ -33267,12 +32994,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &853396685
 GameObject:
   m_ObjectHideFlags: 0
@@ -33551,6 +33275,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2167452f2386714b92e6df2f8bc62c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  se: {fileID: 0}
+  _textCountdown: {fileID: 0}
+  _imageMask: {fileID: 0}
+  Pause: {fileID: 0}
 --- !u!114 &865912368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33833,6 +33561,11 @@ MonoBehaviour:
   PauseScreen: {fileID: 911593816}
   AdjustmentPage: {fileID: 581750531}
   WarningPage: {fileID: 1625385777}
+  Option: {fileID: 0}
+  RulePage: {fileID: 0}
+  SoundPage: {fileID: 0}
+  se1: {fileID: 0}
+  se2: {fileID: 0}
 --- !u!224 &868331263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33996,12 +33729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &869626791
 GameObject:
   m_ObjectHideFlags: 0
@@ -34209,12 +33939,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &871631438
 GameObject:
   m_ObjectHideFlags: 0
@@ -34584,12 +34311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &880495336
 GameObject:
   m_ObjectHideFlags: 0
@@ -34650,7 +34374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: KARAAGE
   Guzai: {fileID: 4496701260464767293, guid: 3e5620f491f48674cad335ddd3dcdca7, type: 3}
-  Oya: {fileID: 172845376}
+  z: 0
+  Okibaasyo: {x: 0, y: 0, z: 0}
+  Parent: {fileID: 0}
 --- !u!1 &883493876
 GameObject:
   m_ObjectHideFlags: 0
@@ -34858,12 +34584,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &885380134
 GameObject:
   m_ObjectHideFlags: 0
@@ -35071,12 +34794,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &889365277
 GameObject:
   m_ObjectHideFlags: 0
@@ -35493,12 +35213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &906890795
 GameObject:
   m_ObjectHideFlags: 0
@@ -36057,12 +35774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &912891191
 GameObject:
   m_ObjectHideFlags: 0
@@ -36175,12 +35889,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &915693249
 GameObject:
   m_ObjectHideFlags: 0
@@ -36369,12 +36080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &920669857
 GameObject:
   m_ObjectHideFlags: 0
@@ -36637,12 +36345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &922401294
 GameObject:
   m_ObjectHideFlags: 0
@@ -36979,10 +36684,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 205089909}
-  TargetObject: {fileID: 0}
   Tag: 444
-  can: 0
-  Rift: 1
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!65 &929214942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37053,6 +36760,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!1 &932004638
 GameObject:
   m_ObjectHideFlags: 0
@@ -37163,12 +36876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &934567010
 GameObject:
   m_ObjectHideFlags: 0
@@ -37281,12 +36991,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &934698626
 GameObject:
   m_ObjectHideFlags: 0
@@ -37802,12 +37509,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &938843590
 GameObject:
   m_ObjectHideFlags: 0
@@ -37920,12 +37624,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &946879569
 GameObject:
   m_ObjectHideFlags: 0
@@ -38133,12 +37834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &949563810
 GameObject:
   m_ObjectHideFlags: 0
@@ -38473,12 +38171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &959818691
 GameObject:
   m_ObjectHideFlags: 0
@@ -38591,12 +38286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &961895581
 GameObject:
   m_ObjectHideFlags: 0
@@ -39029,12 +38721,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &969746258
 GameObject:
   m_ObjectHideFlags: 0
@@ -39084,10 +38773,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 1555597706}
-  TargetObject: {fileID: 0}
   Tag: 444
-  can: 0
-  Rift: 1
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!65 &974561267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39140,6 +38831,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!114 &974561275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39360,12 +39057,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &993838788
 GameObject:
   m_ObjectHideFlags: 0
@@ -39573,12 +39267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &996488547
 GameObject:
   m_ObjectHideFlags: 0
@@ -39819,12 +39510,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1002053527
 GameObject:
   m_ObjectHideFlags: 0
@@ -39937,12 +39625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1001 &1003136780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40450,12 +40135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1015265073
 GameObject:
   m_ObjectHideFlags: 0
@@ -40859,12 +40541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1025614829
 GameObject:
   m_ObjectHideFlags: 0
@@ -40975,12 +40654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1026815031
 GameObject:
   m_ObjectHideFlags: 0
@@ -41091,12 +40767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1027774175
 GameObject:
   m_ObjectHideFlags: 0
@@ -41209,12 +40882,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1029004125
 GameObject:
   m_ObjectHideFlags: 0
@@ -42449,12 +42119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1048041886
 GameObject:
   m_ObjectHideFlags: 0
@@ -43257,12 +42924,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1065124259
 GameObject:
   m_ObjectHideFlags: 0
@@ -43808,12 +43472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1001 &1073435982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44468,12 +44129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1088784675
 GameObject:
   m_ObjectHideFlags: 0
@@ -44584,12 +44242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1088790359
 GameObject:
   m_ObjectHideFlags: 0
@@ -44799,12 +44454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1091477040
 GameObject:
   m_ObjectHideFlags: 0
@@ -45419,12 +45071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1101119922
 GameObject:
   m_ObjectHideFlags: 0
@@ -45939,12 +45588,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1108634381
 GameObject:
   m_ObjectHideFlags: 0
@@ -46057,12 +45703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1110264565
 GameObject:
   m_ObjectHideFlags: 0
@@ -46606,12 +46249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1118423936
 GameObject:
   m_ObjectHideFlags: 0
@@ -46722,12 +46362,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1120938859
 GameObject:
   m_ObjectHideFlags: 0
@@ -47133,13 +46770,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19173f9dde674d24b81c6597849c4cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1129176217}
-  Kscore: 0
+  scoreText: {fileID: 0}
+  score: 0
   KARAAGE: 70
   EBIHURAI: 100
+  HANBAAGU: 130
+  SYUUMAI: 25
   TOMATO: 5
   TAMAGOYAKI: 20
   BUROKKORII: 10
+  MIITOBOURU: 25
+  NAPORITANN: 50
   TAKO: 20
 --- !u!1 &1131454236
 GameObject:
@@ -47253,12 +46894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1132485990
 GameObject:
   m_ObjectHideFlags: 0
@@ -47445,12 +47083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1138296770
 GameObject:
   m_ObjectHideFlags: 0
@@ -47601,6 +47236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eedf05c7f1f3bd44afe0097339ba629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  se: {fileID: 0}
 --- !u!114 &1142112217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48120,12 +47756,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1158531606
 GameObject:
   m_ObjectHideFlags: 0
@@ -48236,12 +47869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1163942985
 GameObject:
   m_ObjectHideFlags: 0
@@ -48704,12 +48334,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1179382657
 GameObject:
   m_ObjectHideFlags: 0
@@ -49059,12 +48686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1188663478
 GameObject:
   m_ObjectHideFlags: 0
@@ -49177,12 +48801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1189234560
 GameObject:
   m_ObjectHideFlags: 0
@@ -49518,12 +49139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1194807636
 GameObject:
   m_ObjectHideFlags: 0
@@ -49973,12 +49591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1204226441
 GameObject:
   m_ObjectHideFlags: 0
@@ -50301,12 +49916,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1219070583
 GameObject:
   m_ObjectHideFlags: 0
@@ -50741,12 +50353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1225145208
 GameObject:
   m_ObjectHideFlags: 0
@@ -51379,12 +50988,28 @@ MonoBehaviour:
   Mokutekiti: {fileID: 0}
   Tako: {fileID: 1357850459}
   Guzai: {fileID: 0}
-  winner: 0
   Goal: {fileID: 0}
   tag: 222
-  twotwotwo: 0
-  fourfourfour: 0
-  onetwotwo: 0
+  Owari: 0
+  GoalPrefab: {fileID: 0}
+  Mugenwakiti: {fileID: 0}
+  GameUI: {fileID: 0}
+  ClearUI: {fileID: 0}
+  Bento: {fileID: 0}
+  Sentaku: {fileID: 0}
+  Chakuti: {fileID: 0}
+  rakka: {fileID: 0}
+  BroccoliHantei: {fileID: 0}
+  EbiflyHantei: {fileID: 0}
+  HamburgHantei: {fileID: 0}
+  KaraageHantei: {fileID: 0}
+  MeatballHantei: {fileID: 0}
+  NeapolitanHantei: {fileID: 0}
+  PastaHantei: {fileID: 0}
+  PopcornshrimpHantei: {fileID: 0}
+  SyumaiHantei: {fileID: 0}
+  TamagoyakiHantei: {fileID: 0}
+  TomatoHantei: {fileID: 0}
 --- !u!1 &1249515706
 GameObject:
   m_ObjectHideFlags: 0
@@ -52538,12 +52163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1271610380
 GameObject:
   m_ObjectHideFlags: 0
@@ -52654,12 +52276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1273395126
 GameObject:
   m_ObjectHideFlags: 0
@@ -52772,12 +52391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1273517010
 GameObject:
   m_ObjectHideFlags: 0
@@ -53456,12 +53072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1283292100
 GameObject:
   m_ObjectHideFlags: 0
@@ -53574,12 +53187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1286205329
 GameObject:
   m_ObjectHideFlags: 0
@@ -53787,12 +53397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1001 &1289833635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54538,12 +54145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1311037649
 GameObject:
   m_ObjectHideFlags: 0
@@ -54985,12 +54589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1315235114
 GameObject:
   m_ObjectHideFlags: 0
@@ -55327,12 +54928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1317104143
 GameObject:
   m_ObjectHideFlags: 0
@@ -55445,12 +55043,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1335323244
 GameObject:
   m_ObjectHideFlags: 0
@@ -56569,12 +56164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1357850459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be9a408f8e45ff45857ff322e6b7c4a, type: 3}
@@ -56627,6 +56219,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!114 &1357850463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56946,12 +56544,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1367207640
 GameObject:
   m_ObjectHideFlags: 0
@@ -57093,12 +56688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1370766646
 GameObject:
   m_ObjectHideFlags: 0
@@ -57447,12 +57039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1376397098
 GameObject:
   m_ObjectHideFlags: 0
@@ -57660,12 +57249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1378530391
 GameObject:
   m_ObjectHideFlags: 0
@@ -57778,12 +57364,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1384834174
 GameObject:
   m_ObjectHideFlags: 0
@@ -58090,12 +57673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1397494314
 GameObject:
   m_ObjectHideFlags: 0
@@ -58208,12 +57788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1397876085
 GameObject:
   m_ObjectHideFlags: 0
@@ -58371,12 +57948,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1398208377
 GameObject:
   m_ObjectHideFlags: 0
@@ -58823,12 +58397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1407262263
 GameObject:
   m_ObjectHideFlags: 0
@@ -59019,12 +58590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1409588598
 GameObject:
   m_ObjectHideFlags: 0
@@ -60074,12 +59642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1446148883
 GameObject:
   m_ObjectHideFlags: 0
@@ -60192,12 +59757,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1446999948
 GameObject:
   m_ObjectHideFlags: 0
@@ -60968,12 +60530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1465843831
 GameObject:
   m_ObjectHideFlags: 0
@@ -61131,12 +60690,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1468938452
 GameObject:
   m_ObjectHideFlags: 0
@@ -61486,12 +61042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1475857613
 GameObject:
   m_ObjectHideFlags: 0
@@ -62172,12 +61725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1501733605
 GameObject:
   m_ObjectHideFlags: 0
@@ -62288,12 +61838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1507247946
 GameObject:
   m_ObjectHideFlags: 0
@@ -62404,12 +61951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1508638594
 GameObject:
   m_ObjectHideFlags: 0
@@ -62522,12 +62066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1513731900
 GameObject:
   m_ObjectHideFlags: 0
@@ -63038,12 +62579,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1519058118
 GameObject:
   m_ObjectHideFlags: 0
@@ -63298,12 +62836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1524674848
 GameObject:
   m_ObjectHideFlags: 0
@@ -63908,12 +63443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1542740539
 GameObject:
   m_ObjectHideFlags: 0
@@ -64049,6 +63581,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!1 &1545214877
 GameObject:
   m_ObjectHideFlags: 0
@@ -64909,12 +64447,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1562907530
 GameObject:
   m_ObjectHideFlags: 0
@@ -65946,12 +65481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1573153482
 GameObject:
   m_ObjectHideFlags: 0
@@ -66159,12 +65691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1586067196
 GameObject:
   m_ObjectHideFlags: 0
@@ -66957,14 +66486,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602958951}
-  m_LocalRotation: {x: -0, y: 0.86252826, z: -0.506009, w: 0}
+  m_LocalRotation: {x: 0, y: 0.8660254, z: -0.5, w: 0}
   m_LocalPosition: {x: 0, y: 30, z: 20.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60.797, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 180, z: 0}
 --- !u!114 &1602958955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66994,7 +66523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObj: {fileID: 889365277}
   rotateSpeed: 5
-  MaxY: 45
+  MaxY: 30
   MinY: -30
   slider: {fileID: 1252303536}
 --- !u!114 &1602958957
@@ -67171,12 +66700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1615072307
 GameObject:
   m_ObjectHideFlags: 0
@@ -67287,12 +66813,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1615880945
 GameObject:
   m_ObjectHideFlags: 0
@@ -67353,7 +66876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: TOMATO
   Guzai: {fileID: 3842334828608351323, guid: 5809b4c16e494f44584942f7f283f48d, type: 3}
-  Oya: {fileID: 172845376}
+  z: 0
+  Okibaasyo: {x: 0, y: 0, z: 0}
+  Parent: {fileID: 0}
 --- !u!1 &1620723562
 GameObject:
   m_ObjectHideFlags: 0
@@ -67464,12 +66989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1621215865
 GameObject:
   m_ObjectHideFlags: 0
@@ -67665,10 +67187,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 1241881328}
-  TargetObject: {fileID: 0}
   Tag: 222
-  can: 0
-  Rift: 1
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!65 &1625280919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67721,6 +67245,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!114 &1625280927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68056,12 +67586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1637346798
 GameObject:
   m_ObjectHideFlags: 0
@@ -69109,12 +68636,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1661983408
 GameObject:
   m_ObjectHideFlags: 0
@@ -69322,12 +68846,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1663659635
 GameObject:
   m_ObjectHideFlags: 0
@@ -69438,12 +68959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1663902660
 GameObject:
   m_ObjectHideFlags: 0
@@ -69554,12 +69072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1669762868
 GameObject:
   m_ObjectHideFlags: 0
@@ -69670,12 +69185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1672565097
 GameObject:
   m_ObjectHideFlags: 0
@@ -70221,12 +69733,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1685105152
 GameObject:
   m_ObjectHideFlags: 0
@@ -70549,12 +70058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1687820991
 GameObject:
   m_ObjectHideFlags: 0
@@ -70665,12 +70171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1688053167
 GameObject:
   m_ObjectHideFlags: 0
@@ -70828,12 +70331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1691712109
 GameObject:
   m_ObjectHideFlags: 0
@@ -71400,12 +70900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1710727617
 GameObject:
   m_ObjectHideFlags: 0
@@ -71999,12 +71496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1730186366
 GameObject:
   m_ObjectHideFlags: 0
@@ -72212,12 +71706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1740416958
 GameObject:
   m_ObjectHideFlags: 0
@@ -72912,12 +72403,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1748827083
 GameObject:
   m_ObjectHideFlags: 0
@@ -73125,12 +72613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1001 &1751696099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73332,12 +72817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1753749369
 GameObject:
   m_ObjectHideFlags: 0
@@ -74084,12 +73566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1777259551
 GameObject:
   m_ObjectHideFlags: 0
@@ -74491,12 +73970,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1795675143
 GameObject:
   m_ObjectHideFlags: 0
@@ -74609,12 +74085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1797039389 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a549b6c396cdd4f46b84fb775e592695, type: 3}
@@ -74680,8 +74153,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 1082707717}
-  TargetObject: {fileID: 0}
   Tag: 122
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!114 &1797039399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74718,6 +74195,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!1 &1797937789
 GameObject:
   m_ObjectHideFlags: 0
@@ -74927,12 +74410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1798913844
 GameObject:
   m_ObjectHideFlags: 0
@@ -75045,12 +74525,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1801517766
 GameObject:
   m_ObjectHideFlags: 0
@@ -75319,7 +74796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64284ddbc605b74abe56f6274d560c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hyouka: {fileID: 1638295268}
+  Hyouka: {fileID: 0}
   GameUI: {fileID: 68282412}
   ResultUI: {fileID: 900950645}
   HYOUKA: 10
@@ -75839,12 +75316,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1819139850
 GameObject:
   m_ObjectHideFlags: 0
@@ -76231,12 +75705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1826476817
 GameObject:
   m_ObjectHideFlags: 0
@@ -76394,12 +75865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1829387192
 GameObject:
   m_ObjectHideFlags: 0
@@ -76704,12 +76172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1834296828
 GameObject:
   m_ObjectHideFlags: 0
@@ -77111,12 +76576,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1845624456
 GameObject:
   m_ObjectHideFlags: 0
@@ -77371,12 +76833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1855448291
 GameObject:
   m_ObjectHideFlags: 0
@@ -77771,12 +77230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1861990506
 GameObject:
   m_ObjectHideFlags: 0
@@ -78965,12 +78421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1909646175
 GameObject:
   m_ObjectHideFlags: 0
@@ -79081,12 +78534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 444
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 444
 --- !u!1 &1912149884
 GameObject:
   m_ObjectHideFlags: 0
@@ -79310,12 +78760,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1921398033
 GameObject:
   m_ObjectHideFlags: 0
@@ -79586,12 +79033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1924797868
 GameObject:
   m_ObjectHideFlags: 0
@@ -80496,12 +79940,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1943268378
 GameObject:
   m_ObjectHideFlags: 0
@@ -80846,12 +80287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1949319595
 GameObject:
   m_ObjectHideFlags: 0
@@ -81061,12 +80499,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &1963139472
 GameObject:
   m_ObjectHideFlags: 0
@@ -81177,12 +80612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1963949968
 GameObject:
   m_ObjectHideFlags: 0
@@ -81293,12 +80725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1968453176
 GameObject:
   m_ObjectHideFlags: 0
@@ -81454,12 +80883,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1971354845
 GameObject:
   m_ObjectHideFlags: 0
@@ -81705,12 +81131,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b3eeb3ed19f204aab6df2e52400eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1973441791}
+  scoreText: {fileID: 0}
+  score: 20
   KARAAGE: 70
   EBIHURAI: 100
+  HANBAAGU: 100
+  SYUUMAI: 15
   TOMATO: 5
   TAMAGOYAKI: 20
   BUROKKORII: 10
+  MIITOBOURU: 20
+  NAPORITANN: 65
   TAKO: 20
 --- !u!1 &1974823543
 GameObject:
@@ -81822,12 +81253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1979150260
 GameObject:
   m_ObjectHideFlags: 0
@@ -82124,12 +81552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &1994422353
 GameObject:
   m_ObjectHideFlags: 0
@@ -82578,12 +82003,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2001884130
 GameObject:
   m_ObjectHideFlags: 0
@@ -82696,12 +82118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1001 &2003016259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83142,12 +82561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2009558698
 GameObject:
   m_ObjectHideFlags: 0
@@ -83260,12 +82676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2010226218
 GameObject:
   m_ObjectHideFlags: 0
@@ -83423,12 +82836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2011960507
 GameObject:
   m_ObjectHideFlags: 0
@@ -83712,12 +83122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2021175099
 GameObject:
   m_ObjectHideFlags: 0
@@ -83830,12 +83237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2023897147
 GameObject:
   m_ObjectHideFlags: 0
@@ -83946,12 +83350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2025136259
 GameObject:
   m_ObjectHideFlags: 0
@@ -84064,12 +83465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2027713618
 GameObject:
   m_ObjectHideFlags: 0
@@ -84182,12 +83580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2038012893
 GameObject:
   m_ObjectHideFlags: 0
@@ -84300,12 +83695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2039426547
 GameObject:
   m_ObjectHideFlags: 0
@@ -84649,12 +84041,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2049335542
 GameObject:
   m_ObjectHideFlags: 0
@@ -84765,12 +84154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2051997665
 GameObject:
   m_ObjectHideFlags: 0
@@ -85406,12 +84792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2066803654
 GameObject:
   m_ObjectHideFlags: 0
@@ -85522,12 +84905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2068370177
 GameObject:
   m_ObjectHideFlags: 0
@@ -85992,12 +85372,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2076783188
 GameObject:
   m_ObjectHideFlags: 0
@@ -86110,12 +85487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2077176400
 GameObject:
   m_ObjectHideFlags: 0
@@ -86370,12 +85744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2086815251
 GameObject:
   m_ObjectHideFlags: 0
@@ -86673,12 +86044,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2098311069
 GameObject:
   m_ObjectHideFlags: 0
@@ -87084,12 +86452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2104114780
 GameObject:
   m_ObjectHideFlags: 0
@@ -87200,12 +86565,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2106105882
 GameObject:
   m_ObjectHideFlags: 0
@@ -87563,12 +86925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 122
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 122
 --- !u!1 &2118467051
 GameObject:
   m_ObjectHideFlags: 0
@@ -87776,12 +87135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2120122615
 GameObject:
   m_ObjectHideFlags: 0
@@ -88026,10 +87382,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mokutekiti: {fileID: 1919815438}
-  TargetObject: {fileID: 0}
   Tag: 222
-  can: 0
-  Rift: 1
+  HanteiPrefab: {fileID: 0}
+  Nuke: 
+  kaiten: {fileID: 0}
+  rakka: {fileID: 0}
+  haki: {fileID: 0}
 --- !u!65 &2124327832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88100,6 +87458,12 @@ MonoBehaviour:
   EBIHURAI: {fileID: 1370915209}
   TAMAGOYAKI: {fileID: 1407262263}
   TAKO: {fileID: 560410319}
+  GOHAN: {fileID: 0}
+  SYUUMAI: {fileID: 0}
+  NAPORITANN: {fileID: 0}
+  PASUTA: {fileID: 0}
+  MIITOBOURU: {fileID: 0}
+  HANNBAAGU: {fileID: 0}
 --- !u!1 &2128259905
 GameObject:
   m_ObjectHideFlags: 0
@@ -88449,12 +87813,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b501fd09919f343b1a994bce9b81fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tag: 222
   colorA: {fileID: 2100000, guid: be2569fe1793f2f449bf4005fcd24d09, type: 2}
   colorB: {fileID: 2100000, guid: e7bb8a28007649c458062af57043f818, type: 2}
-  ottHantei: {fileID: 394485557}
-  tttHantei: {fileID: 444445583}
-  fffHantei: {fileID: 1484442294}
+  Tag: 222
 --- !u!1 &2134185262
 GameObject:
   m_ObjectHideFlags: 0
