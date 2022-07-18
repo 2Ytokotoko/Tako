@@ -45,6 +45,8 @@ TagManager:
   - Check
   - PASUTA
   - datuPASUTA
+  - POPPUCONSHURINPU
+  - datuPOPPUCONSHURINPU
   layers:
   - Default
   - TransparentFX
