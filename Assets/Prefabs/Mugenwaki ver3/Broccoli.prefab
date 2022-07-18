@@ -1049,6 +1049,7 @@ MonoBehaviour:
   Tag: 122
   x: 0
   y: 30
+  z: 0
   HanteiPrefab: {fileID: 128246667460258307, guid: dc06c673b53360d42b14dd63b76eb6d7, type: 3}
   Nuke: datuBUROKKORII
   Siri: {fileID: 0}
@@ -1467,7 +1468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4216463749782574532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -0.666667, z: 0}
+  m_LocalPosition: {x: -1.75, y: -0.666667, z: 0}
   m_LocalScale: {x: 1.3333335, y: 1.3333334, z: 1.3333334}
   m_ConstrainProportionsScale: 0
   m_Children:

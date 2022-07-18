@@ -42,6 +42,9 @@ TagManager:
   - datuHANNBAAGU
   - datuBUROKKORII
   - datuEBIHURAI
+  - Check
+  - PASUTA
+  - datuPASUTA
   layers:
   - Default
   - TransparentFX
