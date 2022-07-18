@@ -22,6 +22,8 @@ public class HanteiFall : MonoBehaviour
             || other.CompareTag("HANNBAAGU")
             || other.CompareTag("KARAAGE")
             || other.CompareTag("MIITOBOURU")
+            || other.CompareTag("PASUTA")
+            || other.CompareTag("POPPUCONSHURINPU")
             || other.CompareTag("NAPORITANN")
             || other.CompareTag("SYUUMAI")
             || other.CompareTag("TOMATO")
