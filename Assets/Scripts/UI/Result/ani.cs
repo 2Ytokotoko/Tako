@@ -10,13 +10,23 @@ public class ani : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anime = GetComponent<Animator>();　　　//変数にAnimatorコンポネントを入れます
-        anime.SetBool("Ani", false);		//Animator内にあるboolフラグ”isShoot”をfalseにしておきます
-    }     　
 
-    // Update is called once per frame
-    void Update()
+
+        anime = GetComponent<Animator>();   //変数にAnimatorコンポネントを入れます
+      //  Debug.Log("ok2");
+
+    }
+
+
+    void FixedUpdate()
     {
-        anime.SetTrigger("Ani"); // "Trigger"にはパラメータ名が入ります
+
+        bool Flag = GameObject.Find("Player").GetComponent<Player>().flag;
+     //   Debug.Log("ok3");
+        if (Flag == true)
+        {
+            Debug.Log("ok4");
+            anime.SetBool("Ani",true); // "Trigger"にはパラメータ名が入ります
+        }
     }
 }
