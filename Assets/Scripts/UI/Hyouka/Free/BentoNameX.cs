@@ -38,6 +38,18 @@ public class BentoNameX : MonoBehaviour
         //カロリー 　500を中心として見ている
         if (Kal >= 900)
         {
+            NameText.text += ("糖尿病と踊りましょう");
+        }
+        else if (Kal >= 3000)
+        {
+            NameText.text += ("1日分のお弁当");
+        }
+        else if (Kal >= 2000)
+        {
+            NameText.text += ("デブ活って言葉もあるし");
+        }
+        else if (Kal >= 1000)
+        {
             NameText.text += ("メタボまっしぐら");
         }
         else if (Kal >= 600)
@@ -54,26 +66,69 @@ public class BentoNameX : MonoBehaviour
         }
         else if (Kal >= 300)
         {
-            NameText.text += ("ベリーヘルシー");
+            NameText.text += ("ダイエット");
         }
         else  
         {
-            NameText.text += ("ダイエット");
+            NameText.text += ("断食");
         }
 
         //重量
-        if (G >= 900)
+        if (G >= 3000)
         {
             NameText.text += ("肩に弁当乗っけてんのかい！");
         }
-
+       else if (G >= 2000)
+        {
+            NameText.text += ("超ヘビー級");
+        }
+        if (G >= 1000)
+        {
+            NameText.text += ("ヘビー級");
+        }
+        if (G >= 800)
+        {
+            NameText.text += ("冷静に考えて0.8Kgって重すぎる");
+        }
+        if (G >= 500)
+        {
+            NameText.text += ("ちょっと重いかな？");
+        }
+        if (G >= 300)
+        {
+            NameText.text += ("持ち運びに便利");
+        }
+        if (G >= 100)
+        {
+            NameText.text += ("とても楽ちん");
+        }
         else
         {
             NameText.text += ("空気よりかる～い！");
         }
 
         //値段
-        if (En >= 100)
+        if (En >= 10000)
+        {
+            NameText.text += ("リボ払いでお願いします");
+        }
+        else if (En >= 5000)
+        {
+            NameText.text += (En+"円のお弁当ってなかなかないよ");
+        }
+        else if (En >= 1000)
+        {
+            NameText.text += ("素晴らしく豪華な");
+        }
+        else if (En >= 700)
+        {
+            NameText.text += ("ちょっと豪華なお昼");
+        }
+        else if (En >= 500)
+        {
+            NameText.text += ("お昼は大体これくらい");
+        }
+        else if (En >= 100)
         {
             NameText.text += ("お手軽");
         }
@@ -83,18 +138,38 @@ public class BentoNameX : MonoBehaviour
         }
 
         //時間
-        if (Ime <= 60)
+        if (Ime <= 30)
+        {
+            NameText.text += ("サラマンダー");
+        }
+      else  if (Ime <= 60)
         {
             NameText.text += ("超特急");
         }
+        else if (Ime <= 180)
+        {
+            NameText.text += ("急行");
+        }
+        else if (Ime <= 300)
+        {
+            NameText.text += ("各駅停車");
+        }
+        else if (Ime <= 420)
+        {
+            NameText.text += ("遅延");
+        }
+        else if (Ime <= 600)
+        {
+            NameText.text += ("事故発生");
+        }
         else
         {
-            NameText.text += ("サラマンダー");
+            NameText.text += ("皆さんがお弁当を作るまで", Ime + "秒かかりました");
         }
 
 
         //合体出来ない系
-        if (kaitenNumber.tamagoyaki == 0 && kaitenNumber.karaage == 0 && kaitenNumber.ebihurai == 0 && kaitenNumber.hanbaagu == 0 &&
+        if (kaitenNumber.tamagoyaki == 0 && kaitenNumber.karaage == 0 && kaitenNumber.ebihurai == 0 && kaitenNumber.hanbaagu == 0 &&  // kaitenNumber.pasuta== 0 && kaitenNumber.poppuconshurinpu == 0 &&
             kaitenNumber.syuumai == 0 && kaitenNumber.naporitan == 0 & kaitenNumber.tomato == 0 && kaitenNumber.burokkorii == 0 && kaitenNumber.miitobouru == 0)
         {
             NameText.text += ("オンリーユー");

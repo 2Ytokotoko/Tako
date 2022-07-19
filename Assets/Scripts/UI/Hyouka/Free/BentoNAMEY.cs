@@ -19,13 +19,13 @@ public class BentoNAMEY : MonoBehaviour
     // Start is called before the first frame update
 
 
-    private Animator anime;　//アニメーターを入れる変数を用意します
+  //   Animator anime;　//アニメーターを入れる変数を用意します
     bool flag;
     void Start()
     {
         kaitenNumber = FindObjectOfType<KaitenNumber>();
-        anime = GetComponent<Animator>();　　　//変数にAnimatorコンポネントを入れます
-        anime.SetBool("Ani", false);		//Animator内にあるboolフラグ”isShoot”をfalseにしておきます
+        //anime = GetComponent<Animator>();　　　//変数にAnimatorコンポネントを入れます
+     //   anime.SetBool("Ani", false);		//Animator内にあるboolフラグ”isShoot”をfalseにしておきます
     }
     void OnTriggerEnter(Collider other)
     {
@@ -66,6 +66,14 @@ public class BentoNAMEY : MonoBehaviour
         if (other.CompareTag("NAPORITANN"))
         {
             kaitenNumber.naporitan += 1;
+        }
+        if (other.CompareTag("PASUTA"))
+        {
+         //   kaitenNumber.pasuta += 1;
+        }
+        if (other.CompareTag("POPPUCONSHURINPU"))
+        {
+          //  kaitenNumber.poppuconshurinpu += 1;
         }
         if (other.CompareTag("TAKO") || other.CompareTag("Player"))
         {
@@ -122,7 +130,7 @@ public class BentoNAMEY : MonoBehaviour
         if (flag == true)　		//　そのshootFlagがtrueなら、animatorの”ishoot”フラグをtrueにします
         {
 
-            anime.SetTrigger("Ani"); // "Trigger"にはパラメータ名が入ります
+           // anime.SetTrigger("Ani"); // "Trigger"にはパラメータ名が入ります
 
         }
     }
