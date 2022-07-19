@@ -24,12 +24,42 @@ public class Weight : MonoBehaviour
     public int BUROKKORII = 20;
     public int MIITOBOURU = 10;
     public int NAPORITANN = 35;
+    public int PASUTA = 35;
+    public int POPPUCONSHURINPU = 10;
+
     //たこさんウィンナー
     public int TAKO = 20;
+    private int TAKOCOUNT = 0;
+
+    private GameObject odai,bento;
 
     void Start()
     {
         SetScore();   //初期スコアを代入して表示
+    }
+
+    private void Update()
+    {
+        odai = GameObject.Find("OdaiName");
+        if(odai != null)
+        {
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                score += TAKO;
+                SetScore();
+            }
+        }
+        bento = GameObject.Find("BentoNAMAE");
+        if (bento != null)
+        {
+            score += TAKO;
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                SetScore();
+            }
+        }
     }
 
     //cube同士での衝突＋100 cube以外との衝突＋100
@@ -81,6 +111,14 @@ public class Weight : MonoBehaviour
         {
             score += TAKO;
         }
+        if (other.CompareTag("PASUTA"))
+        {
+            score += PASUTA;
+        }
+        if (other.CompareTag("POPPUCONSHURINPU"))
+        {
+            score += POPPUCONSHURINPU;
+        }
         SetScore();
     }
 
@@ -125,6 +163,14 @@ public class Weight : MonoBehaviour
         if (other.CompareTag("datuNAPORITANN"))
         {
             score -= NAPORITANN;
+        }
+        if (other.CompareTag("datuPASUTA"))
+        {
+            score -= PASUTA;
+        }
+        if (other.CompareTag("datuPOPPUCONSHURINPU"))
+        {
+            score -= POPPUCONSHURINPU;
         }
         SetScore();
     }

@@ -23,15 +23,43 @@ public class Kcal : MonoBehaviour
     public int BUROKKORII = 10;
     public int MIITOBOURU= 25;
     public int NAPORITANN = 50;
+    public int PASUTA = 30;
+    public int POPPUCONSHURINPU = 25;
+
     //たこさんウィンナー
     public int TAKO = 20;
+    private int TAKOCOUNT = 0;
+
+    private GameObject odai, bento;
 
     void Start()
     {
         score += 235; //米分
         SetScore();   //初期スコアを代入して表示
     }
-
+    private void Update()
+    {
+        odai = GameObject.Find("OdaiName");
+        if (odai != null)
+        {
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                score += TAKO;
+                SetScore();
+            }
+        }
+        bento = GameObject.Find("BentoNAMAE");
+        if (bento != null)
+        {
+            score += TAKO;
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                SetScore();
+            }
+        }
+    }
     //cube同士での衝突＋100 cube以外との衝突＋100
     void OnTriggerEnter(Collider other)
     {
@@ -75,11 +103,27 @@ public class Kcal : MonoBehaviour
         {
             score += NAPORITANN;
         }
+        if (other.CompareTag("PASUTA"))
+        {
+            score += NAPORITANN;
+        }
+        if (other.CompareTag("POPPUCONSHURINPU"))
+        {
+            score += NAPORITANN;
+        }
         //タコ
         if (other.CompareTag("TAKO") || other.CompareTag("Player"))
 
         {
             score += TAKO;
+        }
+        if (other.CompareTag("PASUTA"))
+        {
+            score += PASUTA;
+        }
+        if (other.CompareTag("POPPUCONSHURINPU"))
+        {
+            score += POPPUCONSHURINPU;
         }
         SetScore();
     }
@@ -125,6 +169,14 @@ public class Kcal : MonoBehaviour
         if (other.CompareTag("datuNAPORITANN"))
         {
             score -= NAPORITANN;
+        }
+        if (other.CompareTag("datuPASUTA"))
+        {
+            score -= PASUTA;
+        }
+        if (other.CompareTag("datuPOPPUCONSHURINPU"))
+        {
+            score -= POPPUCONSHURINPU;
         }
         SetScore();
     }

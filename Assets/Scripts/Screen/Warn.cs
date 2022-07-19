@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class Warn: MonoBehaviour
 {
     public GameObject Warning;
-    private AudioSource audioSource;
-    public AudioClip se1;
-    public AudioClip se2;
+//    private AudioSource audioSource;
+//    public AudioClip se1;
+//    public AudioClip se2;
     public void NotOpen()
     {
         //audioSource = gameObject.GetComponent<AudioSource>();

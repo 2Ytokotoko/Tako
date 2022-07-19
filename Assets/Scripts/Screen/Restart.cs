@@ -6,7 +6,7 @@ using System.Collections;
 public class Restart : MonoBehaviour
 {
     private AudioSource audioSource;
-    public AudioClip se;
+    public AudioSource sentaku;
     [SerializeField]
     private Text _textCountdown;
 
@@ -17,9 +17,7 @@ public class Restart : MonoBehaviour
         public void OnStartButtonClicked()
     {
         Time.timeScale = 1f;
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se;
-        audioSource.PlayOneShot(se);
+        sentaku.Play();
         StartCoroutine(CountdownCoroutine());
 
         IEnumerator CountdownCoroutine()

@@ -6,93 +6,54 @@ using UnityEngine.UI;
 public class Odai1 : MonoBehaviour
 {
     public GameObject Main1, Main2, Main3, Clear1, Clear2, Clear3;
-    public float Count;
+    public int G, Kal,En;
+    public float Ime;
     public int wScore,KARAAGECOUNT,Gcheck,Wcheck;
     public CountDown countDown;
     public Weight weight;
     private AudioSource audioSource;
     public AudioClip se1, se2;
-    public int KARAAGE = 30;
-    public int EBIHURAI = 30;
-    public int HANBAAGU = 70;
-    public int SYUUMAI = 15;
-    public int TOMATO = 10;
-    public int TAMAGOYAKI = 40;
-    public int BUROKKORII = 20;
-    public int MIITOBOURU = 10;
-    public int NAPORITANN = 35;
-    public int TAKO = 20;
+    Kcal kal;
+    Weight g;
+    Price en;　//緑波線出てるかもだけど問題なく反映されてた
+    CountDown time;
+
+    //スクリプトが入っているオブジェクト
+    GameObject KS;
+    GameObject TT;
     private GameObject Bentoname;
 
     void Start()
     {
+        TT = GameObject.Find("Time");
+        KS = GameObject.Find("Hantei");
+        kal = KS.GetComponent<Kcal>();
+        g = KS.GetComponent<Weight>();
+        en = KS.GetComponent<Price>();
+        time = TT.GetComponent<CountDown>();
         Main1.SetActive(true);
         Clear1.SetActive(false);
         Main2.SetActive(true);
         Clear2.SetActive(false);
         Main3.SetActive(true);
         Clear3.SetActive(false);
-        KARAAGECOUNT = 0;
-        wScore = 150;
-         Gcheck = 0;
-         Wcheck = 0;
         Check();
     }
     void Update()
     {
-        Count = countDown.countdown;
-        //wScore = weight.score;
+        Kal = kal.score;
+        G = g.score;
+        En = en.score;
+        Ime = time.countdown;
         Bentoname = GameObject.Find("OdaiName");
         Check();
     }
     void OnTriggerEnter(Collider other)
-    {
-
+    { 
         //個数カウント
         if (other.CompareTag("KARAAGE"))
         {
             KARAAGECOUNT += 1;
-            wScore += KARAAGE;
-        }
-        if (other.CompareTag("EBIHURAI"))
-        {
-            wScore += EBIHURAI;
-        }
-        if (other.CompareTag("HANNBAAGU"))
-        {
-            wScore += HANBAAGU;
-        }
-        if (other.CompareTag("SYUUMAI"))
-        {
-            wScore += SYUUMAI;
-        }
-        //サブ
-        if (other.CompareTag("TOMATO"))
-        {
-            wScore += TOMATO;
-        }
-        if (other.CompareTag("TAMAGOYAKI"))
-        {
-            wScore += TAMAGOYAKI;
-        }
-        if (other.CompareTag("BUROKKORII"))
-
-        {
-            wScore += BUROKKORII;
-        }
-
-        if (other.CompareTag("MIITOBOURU"))
-        {
-            wScore += MIITOBOURU;
-        }
-        if (other.CompareTag("NAPORITANN"))
-        {
-            wScore += NAPORITANN;
-        }
-        if (other.CompareTag("TAKO"))
-
-        {
-            wScore += TAKO;
         }
         Check();
     }
@@ -102,42 +63,6 @@ public class Odai1 : MonoBehaviour
         if (other.CompareTag("datuKARAAGE"))
         {
             KARAAGECOUNT -= 1;
-            wScore -= KARAAGE;
-        }
-        if (other.CompareTag("datuEBIHURAI"))
-        {
-            wScore -= EBIHURAI;
-        }
-        if (other.CompareTag("datuHANNBAAGU"))
-        {
-            wScore -= HANBAAGU;
-        }
-        if (other.CompareTag("datuSYUUMAI"))
-        {
-            wScore -= SYUUMAI;
-        }
-        //サブ
-        if (other.CompareTag("datuTOMATO"))
-        {
-            wScore -= TOMATO;
-        }
-        if (other.CompareTag("datuTAMAGOYAKI"))
-        {
-            wScore -= TAMAGOYAKI;
-        }
-        if (other.CompareTag("datuBUROKKORII"))
-
-        {
-            wScore -= BUROKKORII;
-        }
-
-        if (other.CompareTag("datuMIITOBOURU"))
-        {
-            wScore -= MIITOBOURU;
-        }
-        if (other.CompareTag("datuNAPORITANN"))
-        {
-            wScore -= NAPORITANN;
         }
         Check();
     }
@@ -169,8 +94,8 @@ public class Odai1 : MonoBehaviour
             }
         
 
-        //お題②重量450g以上
-        if (wScore >= 450)
+        //お題②重量350g以上
+        if (G >= 350)
         {
             Main2.SetActive(false);
             Clear2.SetActive(true);
@@ -195,7 +120,7 @@ public class Odai1 : MonoBehaviour
         }
 
         //お題③3分以内にクリア
-        if (Count <= 180)
+        if (Ime <= 180)
         {
             if (Bentoname != null)
             {
