@@ -10,9 +10,9 @@ public class Pause : MonoBehaviour
     public GameObject PauseScreen;
     public GameObject AdjustmentPage;
     public GameObject WarningPage;
-    public GameObject Option, RulePage,SoundPage;
+    public GameObject Option, RulePage, SoundPage;
     private AudioSource audioSource;
-    public AudioClip se1,se2;
+    public AudioSource sentaku, modoru;
 
     void Start()
     {
@@ -25,89 +25,67 @@ public class Pause : MonoBehaviour
     }
     public void StartButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
     }
     public void ExplanationButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         Option.SetActive(false);
         ExplanationPage.SetActive(true);
     }
     public void RuleButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         Option.SetActive(false);
         RulePage.SetActive(true);
     }
     public void OptionButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         PauseScreen.SetActive(false);
         Option.SetActive(true);
     }
     public void AdjustmentButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         AdjustmentPage.SetActive(true);
         Option.SetActive(false);
     }
 
     public void Return_A()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se2;
-        audioSource.Play();
+        modoru.Play();
         AdjustmentPage.SetActive(false);
         Option.SetActive(true);
     }
     public void QuitButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         PauseScreen.SetActive(false);
         WarningPage.SetActive(true);
     }
     public void Return_W()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se2;
-        audioSource.Play();
+        modoru.Play();
         WarningPage.SetActive(false);
         PauseScreen.SetActive(true);
     }
     public void Return_Option()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se2;
-        audioSource.Play();
+        modoru.Play();
         ExplanationPage.SetActive(false);
         RulePage.SetActive(false);
         Option.SetActive(true);
     }
     public void Return_O()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se2;
-        audioSource.Play();
+        modoru.Play();
         Option.SetActive(false);
         PauseScreen.SetActive(true);
     }
     public void Quit()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         Time.timeScale = 1f;
         StartCoroutine("LoadCloseOption");
     }
@@ -120,17 +98,13 @@ public class Pause : MonoBehaviour
 
     public void SoundButtonClick()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        sentaku.Play();
         SoundPage.SetActive(true);
         Option.SetActive(false);
     }
     public void Return_S()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se2;
-        audioSource.Play();
+        modoru.Play();
         SoundPage.SetActive(false);
         Option.SetActive(true);
     }

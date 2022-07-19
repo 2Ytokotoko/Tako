@@ -24,12 +24,41 @@ public class Price : MonoBehaviour
     public int BUROKKORII = 10;
     public int MIITOBOURU = 20;
     public int NAPORITANN = 65;
+    public int PASUTA = 60;
+    public int POPPUCONSHURINPU = 30;
+
     //たこさんウィンナー
-    public int TAKO = 20;
+    public int TAKO = 20; 
+    private int TAKOCOUNT = 0;
+
+    private GameObject odai, bento;
 
     void Start()
     {
         SetScore();   //初期スコアを代入して表示
+    }
+    private void Update()
+    {
+        odai = GameObject.Find("OdaiName");
+        if (odai != null)
+        {
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                score += TAKO;
+                SetScore();
+            }
+        }
+        bento = GameObject.Find("BentoNAMAE");
+        if (bento != null)
+        {
+            score += TAKO;
+            TAKOCOUNT += 1;
+            if (TAKOCOUNT == 1)
+            {
+                SetScore();
+            }
+        }
     }
 
     //cube同士での衝突＋100 cube以外との衝突＋100
@@ -74,6 +103,14 @@ public class Price : MonoBehaviour
         if (other.CompareTag("NAPORITANN"))
         {
             score += NAPORITANN;
+        }
+        if (other.CompareTag("PASUTA"))
+        {
+            score += PASUTA;
+        }
+        if (other.CompareTag("POPPUCONSHURINPU"))
+        {
+            score += POPPUCONSHURINPU;
         }
         //タコ
         if (other.CompareTag("TAKO") || other.CompareTag("Player"))
@@ -125,6 +162,14 @@ public class Price : MonoBehaviour
         if (other.CompareTag("datuNAPORITANN"))
         {
             score -= NAPORITANN;
+        }
+        if (other.CompareTag("datuPASUTA"))
+        {
+            score -= PASUTA;
+        }
+        if (other.CompareTag("datuPOPPUCONSHURINPU"))
+        {
+            score -= POPPUCONSHURINPU;
         }
         SetScore();
     }

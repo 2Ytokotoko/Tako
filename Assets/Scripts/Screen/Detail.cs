@@ -16,6 +16,7 @@ namespace GlobalOutline
         public GameObject PASUTA;
         public GameObject MIITOBOURU;
         public GameObject HANNBAAGU;
+        public GameObject POPPUCONSHURINPU;
         private OutlineEffect outlineEffect;
         void Start()
         {
@@ -111,6 +112,11 @@ namespace GlobalOutline
                 outlineEffect.enabled = true;
                 HANNBAAGU.SetActive(true);
             }
+            else if (this.gameObject.CompareTag("POPPUCONSHURINPU"))
+            {
+                outlineEffect.enabled = true;
+                POPPUCONSHURINPU.SetActive(true);
+            }
         }
         void OnMouseExit()
         {
@@ -162,6 +168,10 @@ namespace GlobalOutline
             if (this.gameObject.CompareTag("HANNBAAGU"))
             {
                 HANNBAAGU.SetActive(false);
+            }
+            if (this.gameObject.CompareTag("POPPUCONSHURINPU"))
+            {
+                POPPUCONSHURINPU.SetActive(false);
             }
         }
     }

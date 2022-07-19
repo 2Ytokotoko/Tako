@@ -14,7 +14,7 @@ public class CountDown : MonoBehaviour
     public GameObject Continuation;//スタートボタン
     public GameObject PauseScreen;//ポーズ画面
     private AudioSource audioSource;
-    public AudioClip se1,se2; 
+    public AudioSource se1,se2; 
 
     void Update()
     {
@@ -27,9 +27,7 @@ public class CountDown : MonoBehaviour
   
     public void StopGame()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        se1.Play(); ;
         Time.timeScale = 0f;
         PauseScreen.SetActive(true);
         Pause.SetActive(false);
@@ -37,9 +35,7 @@ public class CountDown : MonoBehaviour
 
     public void ReStartGame()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = se1;
-        audioSource.Play();
+        se1.Play();
         Time.timeScale = 1f;
         StartCoroutine("Coroutine");
     }
