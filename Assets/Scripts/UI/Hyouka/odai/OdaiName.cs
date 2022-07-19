@@ -6,16 +6,17 @@ using UnityEngine.UI;
 public class OdaiName : MonoBehaviour
 {
     public Text NameText;
-
+  //  public bool flag;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //flag = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+     //   flag = true;
         int check = GameObject.FindGameObjectsWithTag("Check").Length;
         int count = 3 - check;
         if (count ==3)

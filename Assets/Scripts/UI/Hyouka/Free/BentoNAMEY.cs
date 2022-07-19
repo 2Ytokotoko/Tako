@@ -14,18 +14,18 @@ public class BentoNAMEY : MonoBehaviour
     public int Miitobouru;
     private KaitenNumber kaitenNumber;
 
+    public bool flag;
+
     //   StringBuilder Name = new StringBuilder();
     // GameObject KS;
     // Start is called before the first frame update
 
 
-  //   Animator anime;　//アニメーターを入れる変数を用意します
-    bool flag;
     void Start()
     {
+    
         kaitenNumber = FindObjectOfType<KaitenNumber>();
-        //anime = GetComponent<Animator>();　　　//変数にAnimatorコンポネントを入れます
-     //   anime.SetBool("Ani", false);		//Animator内にあるboolフラグ”isShoot”をfalseにしておきます
+
     }
     void OnTriggerEnter(Collider other)
     {
@@ -69,16 +69,16 @@ public class BentoNAMEY : MonoBehaviour
         }
         if (other.CompareTag("PASUTA"))
         {
-         //   kaitenNumber.pasuta += 1;
+            //   kaitenNumber.pasuta += 1;
         }
         if (other.CompareTag("POPPUCONSHURINPU"))
         {
-          //  kaitenNumber.poppuconshurinpu += 1;
+            //  kaitenNumber.poppuconshurinpu += 1;
         }
         if (other.CompareTag("TAKO") || other.CompareTag("Player"))
         {
-             flag = true;
-            BENT();
+            flag = true;
+
         }
     }
 
@@ -125,13 +125,4 @@ public class BentoNAMEY : MonoBehaviour
         }
     }
 
-    void BENT()
-    {
-        if (flag == true)　		//　そのshootFlagがtrueなら、animatorの”ishoot”フラグをtrueにします
-        {
-
-           // anime.SetTrigger("Ani"); // "Trigger"にはパラメータ名が入ります
-
-        }
-    }
 }
