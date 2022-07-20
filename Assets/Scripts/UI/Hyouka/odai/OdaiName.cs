@@ -26,6 +26,11 @@ public class OdaiName : MonoBehaviour
      //   flag = true;
         int check = GameObject.FindGameObjectsWithTag("Check").Length;
         int count = 3 - check;
+        if(count == 4)
+        {
+            myPhoto.sprite = Hyouka3;
+            NameText.text = ("“Á·D‚«‚È‚à‚Ì‚¾‚¯•Ù“–");
+        }
         if (count ==3)
         {
             myPhoto.sprite = Hyouka3;

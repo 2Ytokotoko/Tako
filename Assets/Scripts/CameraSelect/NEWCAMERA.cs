@@ -29,7 +29,7 @@ public class NEWCAMERA : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(2))
+        if (Input.GetMouseButton(1))
         {
             // targetの移動量分、自分（カメラ）も移動する
             transform.position += targetObj.transform.position - targetPos;

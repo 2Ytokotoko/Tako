@@ -9,7 +9,7 @@ public class Odai2 : MonoBehaviour
     public int pScore, kScore;
     public float Count;
     public int MIITOBOURUCOUNT, NAPORITANNCOUNT;
-    public CountDown countDown;
+    CountDown time;
 
     //値段
     public int pKARAAGE = 70;
@@ -35,6 +35,8 @@ public class Odai2 : MonoBehaviour
     public int kNAPORITANN = 50;
     public int kPASUTA = 30;
 
+    public GameObject BentoName;
+
     void Start()
     {
         Main1.SetActive(true);
@@ -50,10 +52,11 @@ public class Odai2 : MonoBehaviour
         pScore = 20;
         kScore = 235;
         Check();
+        time = FindObjectOfType<CountDown>();
     }
     void Update()
     {
-        Count = countDown.countdown;
+        Count = time.countdown;
         Check();
     }
     void OnTriggerEnter(Collider other)
@@ -117,43 +120,49 @@ public class Odai2 : MonoBehaviour
         //お題①ナポリタン4個以上、ミートボール6個以上
         if ((NAPORITANNCOUNT >= 4) && (MIITOBOURUCOUNT >= 6))
         {
-                Main1.SetActive(false);
-                Clear1.SetActive(true);
-            
-        }
-            //お題②カロリー500以上
-            if (kScore >= 500)
-            {
-                Main2.SetActive(false);
-                Clear2.SetActive(true);
-            }
+            Main1.SetActive(false);
+            Clear1.SetActive(true);
 
-            //お題③5分以内にクリア
-            if (Count <= 300)
-            {
-                if (Time.timeScale == 0f)
-                {
-                    Main3.SetActive(false);
-                    Clear3.SetActive(true);
-                }
-                else
-                {
-                    Main3.SetActive(true);
-                    Clear3.SetActive(false);
-                }
-            }
-            //お題④値段500以下
-            if (kScore >= 500)
-            {
-                Main4.SetActive(true);
-                Clear4.SetActive(false);
-            }
-            else
+        }
+        else if ((NAPORITANNCOUNT != 4) || (MIITOBOURUCOUNT != 6))
+        {
+            Main1.SetActive(true);
+            Clear1.SetActive(false);
+
+        }
+        //お題②カロリー500以上
+        if (kScore >= 500)
+        {
+            Main2.SetActive(false);
+            Clear2.SetActive(true);
+        }
+
+        else if(kScore < 500)
+        {
+            Main2.SetActive(true);
+            Clear2.SetActive(false);
+        }
+
+        //お題③値段1000以下
+        if (pScore <= 1000)
+        {
+            Main3.SetActive(false);
+            Clear3.SetActive(true);
+        }
+        else if(pScore > 1000)
+        {
+            Main3.SetActive(true);
+            Clear3.SetActive(false);
+        }
+
+        //お題④5分以内にクリア
+        if (Count <= 300)
+        {
+            if (BentoName.activeSelf)
             {
                 Main4.SetActive(false);
                 Clear4.SetActive(true);
-
-
             }
         }
     }
+}
