@@ -16,10 +16,6 @@ public class Gallary : MonoBehaviour
     public Sprite NotOpen;
     private AudioSource audioSource;
     public AudioClip se;
-    OfferCount1 highScore1;
-    OfferCount2 highScore2;
-    OfferCount3 highScore3;
-    GameObject KS;
     public int Score1, Score2, Score3;
 
     void Start()
@@ -28,20 +24,14 @@ public class Gallary : MonoBehaviour
         myPhotoA.enabled = false;
         myPhotoB = GameObject.Find("ImageB").GetComponent<Image>();
         myPhotoB.enabled = true;
-        KS = GameObject.Find("Hantei");
-        highScore1 = KS.GetComponent<OfferCount1>();
-        highScore2 = KS.GetComponent<OfferCount2>();
-        highScore3 = KS.GetComponent<OfferCount3>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        Score1 = highScore1.HighScore1;
-        Score2 = highScore2.HighScore2;
-        Score3 = highScore3.HighScore3;
-
+        Score1 = PlayerPrefs.GetInt("Highscore1", 0);
+        Score2 = PlayerPrefs.GetInt("Highscore2", 0);
+        Score3 = PlayerPrefs.GetInt("Highscore3", 0);
     }
     public void ClickR()
     {

@@ -6,22 +6,23 @@ using UnityEngine.UI;
 public class OfferCount2 : MonoBehaviour
 {
     public GameObject Notplay, play;
-    public int HighScore2;
+    public int Stage2;
     private void Start()
     {
-        HighScore2 = PlayerPrefs.GetInt("SCORE2", 0);
+        Stage2 = PlayerPrefs.GetInt("Highscore2", 0);
     }
     private void Update()
     {
-        int check = GameObject.FindGameObjectsWithTag("Check").Length;
+        int count = GameObject.FindGameObjectsWithTag("Check").Length;
+        int check = 4 - count;
         Debug.Log("íBê¨ÇµÇΩÇ®ëËÇÃêîÇÕ" + check.ToString() + "å¬");
-        if (HighScore2 < check)
+        if (Stage2 < check)
         {
-            HighScore2 = check;
-            PlayerPrefs.SetInt("SCORE2", HighScore2);
+            Stage2 = check;
+            PlayerPrefs.SetInt("Highscore2", Stage2);
             PlayerPrefs.Save();
         }
-        if (HighScore2 == 3)
+        if (Stage2 == 4)
         {
             Notplay.SetActive(false);
             play.SetActive(true);
