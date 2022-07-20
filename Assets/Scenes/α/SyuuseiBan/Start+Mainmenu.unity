@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: SM_StageSelect
         m_Mode: 1
@@ -4151,7 +4151,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031180378}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4167,7 +4167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 809415162}
-  - component: {fileID: 809415161}
+  - component: {fileID: 809415165}
   - component: {fileID: 809415164}
   - component: {fileID: 809415163}
   m_Layer: 0
@@ -4177,25 +4177,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &809415161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809415160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541d21b0e008a4f4e865d9b6300b2e1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  warn: {fileID: 1764644286}
-  option: {fileID: 270150888}
-  ExplanationPage: {fileID: 1298852538}
-  RulePage: {fileID: 1410271017}
-  SoundPage: {fileID: 1387665364}
-  GalleryPage: {fileID: 2031180375}
-  se: {fileID: 809415164}
 --- !u!4 &809415162
 Transform:
   m_ObjectHideFlags: 0
@@ -4319,6 +4300,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &809415165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809415160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e92f291d7c3c3f41a5dccf741178a5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warn: {fileID: 1764644286}
+  option: {fileID: 270150888}
+  ExplanationPage: {fileID: 1298852538}
+  RulePage: {fileID: 1410271017}
+  SoundPage: {fileID: 1387665364}
+  GalleryPage: {fileID: 2031180375}
+  se: {fileID: 809415164}
 --- !u!1 &813963545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5940,7 +5940,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: SoundButton
         m_Mode: 1
@@ -7043,7 +7043,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: ExplanationButton
         m_Mode: 1
@@ -7590,7 +7590,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: Start_Option
         m_Mode: 1
@@ -7858,7 +7858,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: GalleryButton
         m_Mode: 1
@@ -8233,7 +8233,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: RuleButton
         m_Mode: 1
@@ -8295,7 +8295,6 @@ GameObject:
   - component: {fileID: 1638875048}
   - component: {fileID: 1638875047}
   - component: {fileID: 1638875046}
-  - component: {fileID: 1638875049}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -8368,8 +8367,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1638875049}
-        m_TargetAssemblyTypeName: SEManager, Assembly-CSharp
+      - m_Target: {fileID: 809415165}
+        m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: Start_Quit_y
         m_Mode: 1
         m_Arguments:
@@ -8418,25 +8417,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638875043}
   m_CullTransparentMesh: 1
---- !u!114 &1638875049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638875043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541d21b0e008a4f4e865d9b6300b2e1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  warn: {fileID: 1764644286}
-  option: {fileID: 270150888}
-  ExplanationPage: {fileID: 0}
-  RulePage: {fileID: 0}
-  SoundPage: {fileID: 0}
-  GalleryPage: {fileID: 0}
-  se: {fileID: 0}
 --- !u!1 &1644023750
 GameObject:
   m_ObjectHideFlags: 0
@@ -8816,7 +8796,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809415161}
+      - m_Target: {fileID: 809415165}
         m_TargetAssemblyTypeName: Sentaku, Assembly-CSharp
         m_MethodName: Start_Quit
         m_Mode: 1
@@ -9036,7 +9016,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031180378}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10154,8 +10134,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 797794118}
   - {fileID: 1792140440}
+  - {fileID: 797794118}
   - {fileID: 886214802}
   - {fileID: 361134258}
   - {fileID: 727537440}

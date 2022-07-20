@@ -53,7 +53,7 @@ public class Sentaku : MonoBehaviour
 
     IEnumerator LoadStartStage1()
     {
-        yield return new WaitForSeconds(4.25f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("Game");
     }
     //ステージ選択_ステージ2
@@ -66,7 +66,7 @@ public class Sentaku : MonoBehaviour
 
     IEnumerator LoadStartStage2()
     {
-        yield return new WaitForSeconds(4.25f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("GameStage2");
     }
 
@@ -80,7 +80,7 @@ public class Sentaku : MonoBehaviour
 
     IEnumerator LoadStartStage3()
     {
-        yield return new WaitForSeconds(4.25f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("GameStage3");
     }
 
@@ -94,7 +94,7 @@ public class Sentaku : MonoBehaviour
 
     IEnumerator LoadStartFS()
     {
-        yield return new WaitForSeconds(4.25f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("FreeStage");
     }
 
