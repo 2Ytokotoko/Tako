@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u03B1/SyuuseiBan/Game.unity"
     guid: 56e68fbb732b0dc4cb47fc851fbfec0b
+  - enabled: 1
+    path: "Assets/Scenes/\u03B1/SyuuseiBan/GameStage2.unity"
+    guid: 4d34e4b11754e3f44bcbb4e23280098c
   m_configObjects: {}
