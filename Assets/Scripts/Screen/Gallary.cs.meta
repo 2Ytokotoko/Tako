@@ -3,7 +3,15 @@ guid: e56eba6ab457db540b6a4696c83e13ce
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - myPhotoA: {instanceID: 0}
+  - myPhotoB: {instanceID: 0}
+  - I1: {fileID: 21300000, guid: 8b950b689b2804b44afe48177977cc80, type: 3}
+  - I2: {instanceID: 0}
+  - I3: {instanceID: 0}
+  - I4: {instanceID: 0}
+  - NotOpen: {instanceID: 0}
+  - se: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

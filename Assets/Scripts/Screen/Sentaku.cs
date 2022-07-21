@@ -131,4 +131,11 @@ public class Sentaku : MonoBehaviour
         se.Play();
         GalleryPage.SetActive(true);
     }
+    public void DataReset()
+    {
+        se.Play();
+        PlayerPrefs.SetInt("Highscore1", 0);
+        PlayerPrefs.SetInt("Highscore2", 0);
+        PlayerPrefs.SetInt("Highscore3", 0);
+    }
 }
