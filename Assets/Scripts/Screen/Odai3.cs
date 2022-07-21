@@ -20,17 +20,15 @@ public class Odai3 : MonoBehaviour
 
     //スクリプトが入っているオブジェクト
     GameObject KS;
-    GameObject TT;
     private GameObject Bentoname;
 
     void Start()
     {
-        TT = GameObject.Find("Time");
         KS = GameObject.Find("Hantei");
         kal = KS.GetComponent<Kcal>();
         g = KS.GetComponent<Weight>();
         en = KS.GetComponent<Price>();
-        time = TT.GetComponent<CountDown>();
+        time = FindObjectOfType<CountDown>();
         Main1.SetActive(true);
         Clear1.SetActive(false);
         Main2.SetActive(true);
@@ -82,8 +80,8 @@ public class Odai3 : MonoBehaviour
 
   
             
-        //お題①エビフライ3個以上
-            if (EBIHURAICOUNT >= 3)
+        //お題①エビフライ4個以上
+            if (EBIHURAICOUNT >= 4)
         {
             Main1.SetActive(false);
             Clear1.SetActive(true);
@@ -134,16 +132,17 @@ public class Odai3 : MonoBehaviour
         //お題③カロリー400以上
         if (Kal >= 400)
         {
-            Main3.SetActive(true);
-            Clear3.SetActive(false); audioSource = gameObject.GetComponent<AudioSource>();
+            Main3.SetActive(false);
+            Clear3.SetActive(true); 
+            audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = se1;
             audioSource.Play();
             Pcheck = 1;
         }
         else if (Pcheck == 1)
         {
-            Main3.SetActive(true);
-            Clear3.SetActive(false);
+            Main3.SetActive(false);
+            Clear3.SetActive(true);
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = se2;
             audioSource.Play();
@@ -173,11 +172,11 @@ public class Odai3 : MonoBehaviour
                 Clear5.SetActive(false);
             }
         }
-        //お題④値段600以下
-        if (En <= 600)
+        //お題④値段1200以下
+        if (En <= 1200)
         {
-            Main4.SetActive(true);
-            Clear4.SetActive(false);
+            Main4.SetActive(false);
+            Clear4.SetActive(true);
         }
         else
         {
