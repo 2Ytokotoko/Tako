@@ -20,17 +20,16 @@ public class Odai2 : MonoBehaviour
 
     //スクリプトが入っているオブジェクト
     GameObject KS;
-    GameObject TT;
     private GameObject Bentoname;
+    bool once = true;
 
     void Start()
     {
-        TT = GameObject.Find("Time");
         KS = GameObject.Find("Hantei");
         kal = KS.GetComponent<Kcal>();
         g = KS.GetComponent<Weight>();
         en = KS.GetComponent<Price>();
-        time = TT.GetComponent<CountDown>();
+        time = FindObjectOfType<CountDown>();
         Main1.SetActive(true);
         Clear1.SetActive(false);
         Main2.SetActive(true);
@@ -153,25 +152,30 @@ public class Odai2 : MonoBehaviour
         //お題④値段1000以下
         if (En <= 1000)
         {
-            Main4.SetActive(true);
-            Clear4.SetActive(false); audioSource = gameObject.GetComponent<AudioSource>();
-            audioSource.clip = se1;
-            audioSource.Play();
-            Pcheck = 1;
+            Main4.SetActive(false);
+            Clear4.SetActive(true); 
+            if(once == true)
+            {
+                once = false;
+                audioSource = gameObject.GetComponent<AudioSource>();
+                audioSource.clip = se1;
+                audioSource.Play();
+                Pcheck = 1;
+            }
         }
         else if (Pcheck == 1)
         {
-            Main4.SetActive(true);
-            Clear4.SetActive(false);
+            Main4.SetActive(false);
+            Clear4.SetActive(true);
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = se2;
             audioSource.Play();
         }
-        else
+        else if(En > 1000)
         {
             Main4.SetActive(true);
             Clear4.SetActive(false);
-
+            once = true;
         }
     }
 }

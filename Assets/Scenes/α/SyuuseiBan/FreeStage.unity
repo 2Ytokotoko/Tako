@@ -7772,8 +7772,6 @@ GameObject:
   - component: {fileID: 526203438}
   - component: {fileID: 526203444}
   - component: {fileID: 526203445}
-  - component: {fileID: 526203446}
-  - component: {fileID: 526203449}
   - component: {fileID: 526203450}
   - component: {fileID: 526203448}
   m_Layer: 2
@@ -7927,36 +7925,6 @@ MonoBehaviour:
   Burokkorii: 0
   Miitobouru: 0
   flag: 0
---- !u!114 &526203446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526203437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 753a7c39ab18a3c479f7c84121b36709, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Main1: {fileID: 1925113828}
-  Main2: {fileID: 1897720363}
-  Main3: {fileID: 845506876}
-  Clear1: {fileID: 1295419257}
-  Clear2: {fileID: 90530294}
-  Clear3: {fileID: 1633097952}
-  G: 0
-  Kal: 0
-  En: 0
-  Ime: 0
-  wScore: 0
-  KARAAGECOUNT: 0
-  Gcheck: 0
-  Wcheck: 0
-  countDown: {fileID: 1920426452}
-  weight: {fileID: 294859855}
-  se1: {fileID: 8300000, guid: 5c85c758c481aeb4d921d702ae15d2c0, type: 3}
-  se2: {fileID: 8300000, guid: fd4bab1e379b8ea44bb071142eac9364, type: 3}
 --- !u!82 &526203448
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8053,21 +8021,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &526203449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526203437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9480d431ed546ad4780946ff7b0b8d6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Notplay: {fileID: 1492584152}
-  play: {fileID: 2105180365}
-  Stage1: 0
 --- !u!114 &526203450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9674,7 +9627,7 @@ GameObject:
   - component: {fileID: 631772564}
   - component: {fileID: 631772567}
   - component: {fileID: 631772566}
-  - component: {fileID: 631772565}
+  - component: {fileID: 631772568}
   m_Layer: 5
   m_Name: OdaiName
   m_TagString: Untagged
@@ -9702,24 +9655,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: -116.54513}
   m_SizeDelta: {x: -556.87, y: -374.9098}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &631772565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631772563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37c034622da72cd419c1b05d4370045b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NameText: {fileID: 631772566}
-  Hyouka0: {fileID: 21300000, guid: f05f3b91699a0bd49b0b9c8ee3909001, type: 3}
-  Hyouka1: {fileID: 21300000, guid: 54bf3f59cf8425346a277e5f249fd43d, type: 3}
-  Hyouka2: {fileID: 21300000, guid: 0af9f7f39f2dd9643b25440171f7ef03, type: 3}
-  Hyouka3: {fileID: 21300000, guid: d842685b8dc6239478487b6fd1f575ed, type: 3}
-  myPhoto: {fileID: 1391472009}
 --- !u!114 &631772566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9753,7 +9688,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: tesut
+  m_Text: 
 --- !u!222 &631772567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9762,6 +9697,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631772563}
   m_CullTransparentMesh: 1
+--- !u!114 &631772568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631772563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8852d4ce32c3d24382d2f69c3477cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: {fileID: 631772566}
 --- !u!4 &635609623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ab3cbccd6167f4e4ba5b669cf8e85a50, type: 3}
@@ -11041,7 +10989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &757210534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17622,7 +17570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -130, y: -568}
+  m_AnchoredPosition: {x: 2, y: -568}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142112216
@@ -22617,7 +22565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1492584153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31820,7 +31768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2105180366
 RectTransform:
   m_ObjectHideFlags: 0
