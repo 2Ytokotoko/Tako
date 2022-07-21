@@ -76,7 +76,7 @@ public class GameStart: MonoBehaviour
 		_textCountdown.gameObject.SetActive(false);
 		_imageMask.gameObject.SetActive(false);
 		Odai2.SetActive(false);
-		SceneManager.LoadScene("GameStage2");
+		SceneManager.LoadScene("Game2");
 	}
 	public void Stage3()
 	{
@@ -107,7 +107,7 @@ public class GameStart: MonoBehaviour
 		_textCountdown.gameObject.SetActive(false);
 		_imageMask.gameObject.SetActive(false);
 		Odai3.SetActive(false);
-		SceneManager.LoadScene("GameStage3");
+		SceneManager.LoadScene("Game3");
 	}
 	public void Freestage()
 	{
@@ -138,7 +138,7 @@ public class GameStart: MonoBehaviour
 		_textCountdown.gameObject.SetActive(false);
 		_imageMask.gameObject.SetActive(false);
 		free.SetActive(false);
-		SceneManager.LoadScene("FreeStage");
+		SceneManager.LoadScene("FreeGame");
 	}
 
 }
