@@ -118,8 +118,8 @@ public void StageSelect_Stage1()
 
     IEnumerator LoadStartStage2()
     {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("GameStage2");
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene("Game2");
     }
 
     //ステージ選択_ステージ3
@@ -134,8 +134,8 @@ public void StageSelect_Stage1()
 
     IEnumerator LoadStartStage3()
     {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("GameStage3");
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene("Game3");
     }
 
     //ステージ選択_フリーステージ1
@@ -151,7 +151,7 @@ public void StageSelect_Stage1()
     IEnumerator LoadStartFS1()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("FreeStage1");
+        SceneManager.LoadScene("FreeGame");
     }
 
     //ステージ選択_フリーステージ2
