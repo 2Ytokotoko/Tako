@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f2e558d809f5a5a4e8311fc25cd03f6c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NameText: {instanceID: 0}
+  - Hyouka0: {fileID: 21300000, guid: b53e9a382348c844d8998a908fbb01c3, type: 3}
+  - Hyouka1: {fileID: 21300000, guid: 24a4c288b9a897c4786f581709aa770d, type: 3}
+  - Hyouka2: {fileID: 21300000, guid: 30fe93c4fcb110f408c9e034621ff32e, type: 3}
+  - Hyouka3: {fileID: 21300000, guid: b20428ae731eb6949b7e3748c8b068b0, type: 3}
+  - Hyouka4: {fileID: 21300000, guid: 6f26f9488de0efb4ab3592f8aaeffad8, type: 3}
+  - Hyouka5: {fileID: 21300000, guid: 81bfd798ebace184588368f8f982c031, type: 3}
+  - myPhoto: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
