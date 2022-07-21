@@ -9,7 +9,7 @@ public class Odai3 : MonoBehaviour
     public int pScore, kScore,wScore;
     public float Count;
     public int EBIHURAICOUNT;
-    public CountDown countDown;
+    CountDown time;
 
     //値段
     public int pKARAAGE = 70;
@@ -50,6 +50,8 @@ public class Odai3 : MonoBehaviour
     public int wPASUTA = 35;
     public int wHANNBAAGU = 70;
 
+    public GameObject BentoName;
+
     void Start()
     {
         Main1.SetActive(true);
@@ -66,11 +68,12 @@ public class Odai3 : MonoBehaviour
         pScore = 20;
         kScore = 235;
         wScore = 150;
+        time = FindObjectOfType<CountDown>();
         Check();
     }
     void Update()
     {
-        Count = countDown.countdown;
+        Count = time.countdown;
         Check();
     }
     void OnTriggerEnter(Collider other)
@@ -145,52 +148,62 @@ public class Odai3 : MonoBehaviour
 
     void Check()
     {
-        //お題①エビフライ3個以上
-        if (EBIHURAICOUNT >= 3)
+        //お題①エビフライ4個以上
+        if (EBIHURAICOUNT >= 4)
         {
                 Main1.SetActive(false);
                 Clear1.SetActive(true);
-        }        
+        }
+        else if(EBIHURAICOUNT < 4)
+        {
+            Main1.SetActive(true);
+            Clear1.SetActive(false);
+        }
+
         //お題②重量400以上
         if (wScore >= 400)
         {
             Main2.SetActive(false);
             Clear2.SetActive(true);
         }
+        else if(wScore < 400)
+        {
+            Main2.SetActive(true);
+            Clear2.SetActive(false);
+        }
+
         //お題③カロリー400以上
         if (kScore >= 400)
         {
             Main3.SetActive(false);
             Clear3.SetActive(true);
         }
-        //お題④値段600以下
-        if (kScore >= 600)
+        else if(kScore < 400)
+        {
+            Main3.SetActive(true);
+            Clear3.SetActive(false);
+        }
+
+        //お題④値段1200以下
+        if (kScore <= 1200)
+        {
+            Main4.SetActive(false);
+            Clear4.SetActive(true);
+        }
+        else if (kScore > 1200)
         {
             Main4.SetActive(true);
             Clear4.SetActive(false);
         }
-        else
+
+        //お題⑤5分以内にクリア
+        if (Count <= 420)
         {
-            Main4.SetActive(false);
-            Clear4.SetActive(true);
-
-
-
-            //お題⑤5分以内にクリア
-            if (Count <= 300)
-        {
-            if (Time.timeScale == 0f)
+            if (BentoName.activeSelf)
             {
-                Main3.SetActive(false);
-                Clear3.SetActive(true);
+                Main5.SetActive(false);
+                Clear5.SetActive(true);
             }
-            else
-            {
-                Main3.SetActive(true);
-                Clear3.SetActive(false);
-            }
-        }
-
         }
     }
 }
