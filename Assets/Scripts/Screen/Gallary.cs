@@ -32,29 +32,35 @@ public class Gallary : MonoBehaviour
         Score1 = PlayerPrefs.GetInt("Highscore1", 0);
         Score2 = PlayerPrefs.GetInt("Highscore2", 0);
         Score3 = PlayerPrefs.GetInt("Highscore3", 0);
-        if (Score1 == 3)
+        if (counter >= 1)
         {
-            myPhotoA.sprite = I2;
+            if (Score1 == 3)
+            {
+                myPhotoA.sprite = I2;
+            }
+            else
+            {
+                myPhotoA.sprite = NotOpen;
+            }
+            if (Score2 == 4)
+            {
+                myPhotoB.sprite = I3;
+            }
+            else
+            {
+                myPhotoB.sprite = NotOpen;
+            }
         }
-        else
+        if (counter >= 2)
         {
-            myPhotoA.sprite = NotOpen;
-        }
-        if (Score2 == 4)
-        {
-            myPhotoB.sprite = I3;
-        }
-        else
-        {
-            myPhotoB.sprite = NotOpen;
-        }
-        if (Score3 == 5)
-        {
-            myPhotoA.sprite = I4;
-        }
-        else
-        {
-            myPhotoA.sprite = NotOpen;
+            if (Score3 == 5)
+            {
+                myPhotoA.sprite = I4;
+            }
+            else
+            {
+                myPhotoA.sprite = NotOpen;
+            }
         }
     }
     public void ClickR()
