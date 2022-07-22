@@ -21,8 +21,7 @@ public class CountDown : MonoBehaviour
         //時間をカウントする
         countdown += Time.deltaTime;
         //時間を表示する
-
-        timeText.text = "経過時間:"+countdown.ToString("f0")+"秒";
+    timeText.text = "経過時間:"+countdown.ToString("f0")+"秒";
     }
   
     public void StopGame()

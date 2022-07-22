@@ -16,16 +16,12 @@ public class OfferCount3 : MonoBehaviour
         int count = GameObject.FindGameObjectsWithTag("Check").Length;
         int check = 5 - count;
         Debug.Log("’B¬‚µ‚½‚¨‘è‚Ì”‚Í" + check.ToString() + "ŒÂ");
+        play.SetActive(true);
         if (Stage3 < check)
         {
             Stage3 = check;
             PlayerPrefs.SetInt("Highscore3", Stage3);
             PlayerPrefs.Save();
-        }
-        if (Stage3 == 5)
-        {
-            Notplay.SetActive(false);
-            play.SetActive(true);
         }
     }
 }

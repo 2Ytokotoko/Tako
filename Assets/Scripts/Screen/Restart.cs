@@ -12,7 +12,7 @@ public class Restart : MonoBehaviour
 
     [SerializeField]
     private Image _imageMask;
-    public GameObject Pause;
+    public GameObject Pause,Odai;
 
         public void OnStartButtonClicked()
     {
@@ -25,6 +25,7 @@ public class Restart : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
             _imageMask.gameObject.SetActive(true);
             _textCountdown.gameObject.SetActive(true);
+            Odai.SetActive(true);
 
             _textCountdown.text = "3";
             yield return new WaitForSeconds(1.0f);
@@ -39,10 +40,11 @@ public class Restart : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
 
             _textCountdown.text = "";
-            _textCountdown.gameObject.SetActive(false);
-            _imageMask.gameObject.SetActive(false);
-            Pause.SetActive(false);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            _textCountdown.gameObject.SetActive(false);
+            //_imageMask.gameObject.SetActive(false);
+            Pause.SetActive(false);
+            Odai.SetActive(false);
         }
     }
 }

@@ -9,6 +9,9 @@ public class StageKaihou : MonoBehaviour
 
     void Start()
     {
+        NotGame2.SetActive(true);
+        NotGame3.SetActive(true);
+        NotFreeGame.SetActive(true);
     }
 
     // Update is called once per frame
@@ -23,11 +26,11 @@ public class StageKaihou : MonoBehaviour
         {
             NotGame2.SetActive(false);
         }
-        if (Score2 == 3)
+        if (Score2 == 4)
         {
             NotGame3.SetActive(false);
         }
-        if (Score3 == 3)
+        if (Score3 == 5)
         {
             NotFreeGame.SetActive(false);
         }

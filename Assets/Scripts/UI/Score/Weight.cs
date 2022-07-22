@@ -53,10 +53,10 @@ public class Weight : MonoBehaviour
         bento = GameObject.Find("BentoNAMAE");
         if (bento != null)
         {
-            score += TAKO;
             TAKOCOUNT += 1;
             if (TAKOCOUNT == 1)
             {
+                score += TAKO;
                 SetScore();
             }
         }
@@ -177,7 +177,7 @@ public class Weight : MonoBehaviour
 
     void SetScore()
     {
-        scoreText.text = string.Format("現在重量:"+"{0}", score + "g");
+    scoreText.text = string.Format("現在重量:"+"{0}", score + "g");
     }
 }
 
