@@ -8,9 +8,7 @@ public class Odai1 : MonoBehaviour
     public GameObject Main1, Main2, Main3, Clear1, Clear2, Clear3;
     public int G, Kal,En;
     public float Ime;
-    public int wScore,KARAAGECOUNT,Gcheck,Wcheck;
-    public CountDown countDown;
-    public Weight weight;
+    public int KARAAGECOUNT,Gcheck,Wcheck;
     private AudioSource audioSource;
     public AudioClip se1, se2;
     Kcal kal;
@@ -22,6 +20,7 @@ public class Odai1 : MonoBehaviour
     GameObject KS;
     GameObject TT;
     private GameObject Bentoname;
+    bool once = true;
 
     void Start()
     {
@@ -103,6 +102,16 @@ public class Odai1 : MonoBehaviour
             audioSource.clip = se1;
             audioSource.Play();
             Wcheck = 1;
+            if (once == true)
+            {
+                audioSource = gameObject.GetComponent<AudioSource>();
+                audioSource.clip = se1;
+                audioSource.Play();
+                once = false;
+            }
+            else
+            {
+            }
         }
         else if(Wcheck == 1)
         {
@@ -111,6 +120,7 @@ public class Odai1 : MonoBehaviour
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = se2;
             audioSource.Play();
+            once = true;
         }
         else
         {

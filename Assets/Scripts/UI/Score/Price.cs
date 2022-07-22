@@ -52,10 +52,10 @@ public class Price : MonoBehaviour
         bento = GameObject.Find("BentoNAMAE");
         if (bento != null)
         {
-            score += TAKO;
             TAKOCOUNT += 1;
             if (TAKOCOUNT == 1)
             {
+                score += TAKO;
                 SetScore();
             }
         }
@@ -176,6 +176,6 @@ public class Price : MonoBehaviour
 
     void SetScore()
     {
-        scoreText.text = string.Format("合計金額:"+"{0}", score + "円");
+    scoreText.text = string.Format("合計金額:"+"{0}", score + "円");
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Warn: MonoBehaviour
 {
     public GameObject Warning;
-//    private AudioSource audioSource;
+   public AudioSource Sentaku,Modoru;
 //    public AudioClip se1;
 //    public AudioClip se2;
     public void NotOpen()
@@ -15,6 +15,8 @@ public class Warn: MonoBehaviour
         //audioSource.clip = se1;
         //audioSource.PlayOneShot(se1);
         Warning.SetActive(true);
+        Sentaku.Play();
+
     }
     public void close()
     {
@@ -22,5 +24,6 @@ public class Warn: MonoBehaviour
         //audioSource.clip = se2;
         //audioSource.PlayOneShot(se2);
         Warning.SetActive(false);
+        Modoru.Play();
     }
 }

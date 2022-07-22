@@ -8,9 +8,7 @@ public class Odai2 : MonoBehaviour
     public GameObject Main1, Main2, Main3,Main4, Clear1, Clear2, Clear3,Clear4;
     public int G, Kal, En;
     public float Ime;
-    public int wScore, NAPORITANNCOUNT, MIITOBOURUCOUNT,COUNT, Gcheck, Wcheck,Pcheck;
-    public CountDown countDown;
-    public Weight weight;
+    public int NAPORITANNCOUNT, MIITOBOURUCOUNT,COUNT, Gcheck, Wcheck,Pcheck;
     private AudioSource audioSource;
     public AudioClip se1, se2;
     Kcal kal;
@@ -112,10 +110,17 @@ public class Odai2 : MonoBehaviour
         {
             Main2.SetActive(false);
             Clear2.SetActive(true);
-            audioSource = gameObject.GetComponent<AudioSource>();
-            audioSource.clip = se1;
-            audioSource.Play();
             Wcheck = 1;
+            if (once == true)
+            {
+                audioSource = gameObject.GetComponent<AudioSource>();
+                audioSource.clip = se1;
+                audioSource.Play();
+                once = false;
+            }
+            else
+            {
+            }
         }
         else if (Wcheck == 1)
         {
@@ -124,6 +129,7 @@ public class Odai2 : MonoBehaviour
             audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.clip = se2;
             audioSource.Play();
+            once = true;
         }
         else
         {
@@ -132,86 +138,45 @@ public class Odai2 : MonoBehaviour
 
         }
 
-        //お題③5分以内にクリア
+        //お題④5分以内にクリア
         if (Ime <= 300)
         {
             if (Bentoname != null)
             {
-                Main3.SetActive(false);
-                Clear3.SetActive(true);
+                Main4.SetActive(false);
+                Clear4.SetActive(true);
                 audioSource = gameObject.GetComponent<AudioSource>();
                 audioSource.clip = se1;
                 audioSource.Play();
             }
             else
             {
-                Main3.SetActive(true);
-                Clear3.SetActive(false);
+                Main4.SetActive(true);
+                Clear4.SetActive(false);
             }
         }
-        //お題④値段1000以下
+        //お題③値段1000以下
         if (En <= 1000)
         {
-            Main4.SetActive(false);
-            Clear4.SetActive(true); 
-            if(once == true)
+            Main3.SetActive(false);
+            Clear3.SetActive(true);
+            if (once == true)
             {
                 once = false;
                 audioSource = gameObject.GetComponent<AudioSource>();
                 audioSource.clip = se1;
                 audioSource.Play();
-                Pcheck = 1;
+            }
+            else
+            {
             }
         }
-        else if (Pcheck == 1)
+
+        else
         {
-            Main4.SetActive(false);
-            Clear4.SetActive(true);
-            audioSource = gameObject.GetComponent<AudioSource>();
-            audioSource.clip = se2;
-            audioSource.Play();
-        }
-        else if(En > 1000)
-        {
-            Main4.SetActive(true);
-            Clear4.SetActive(false);
+            Main3.SetActive(true);
+            Clear3.SetActive(false);
             once = true;
         }
     }
 }
-
-/*
-
-void Check()
-{
-    //お題①ナポリタン4個以上、ミートボール6個以上
-    if ((NAPORITANNCOUNT >= 4) && (MIITOBOURUCOUNT >= 6))
-    {
-            Main1.SetActive(false);
-            Clear1.SetActive(true);
-
-    }
-        //お題②カロリー500以上
-        if (kScore >= 500)
-        {
-            Main2.SetActive(false);
-            Clear2.SetActive(true);
-        }
-
-        //お題③5分以内にクリア
-        if (Count <= 300)
-        {
-            if (Time.timeScale == 0f)
-            {
-                Main3.SetActive(false);
-                Clear3.SetActive(true);
-            }
-            else
-            {
-                Main3.SetActive(true);
-                Clear3.SetActive(false);
-            }
-        }
-
-    }
-}*/

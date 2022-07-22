@@ -8,9 +8,7 @@ public class Odai3 : MonoBehaviour
     public GameObject Main1, Main2, Main3,Main4,Main5,Clear1, Clear2, Clear3,Clear4,Clear5;
     public int G, Kal, En;
     public float Ime;
-    public int wScore, EBIHURAICOUNT,COUNT, Gcheck, Wcheck,Pcheck;
-    public CountDown countDown;
-    public Weight weight;
+    public int EBIHURAICOUNT,COUNT, Gcheck, Wcheck,Pcheck;
     private AudioSource audioSource;
     public AudioClip se1, se2;
     Kcal kal;
@@ -72,14 +70,7 @@ public class Odai3 : MonoBehaviour
     }
 
     void Check()
-    {
-
-
-
-
-
-  
-            
+    {      
         //お題①エビフライ4個以上
             if (EBIHURAICOUNT >= 4)
         {

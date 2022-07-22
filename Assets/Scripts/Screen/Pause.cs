@@ -92,7 +92,7 @@ public class Pause : MonoBehaviour
 
     IEnumerator LoadCloseOption()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene("StageSelect");
     }
 
