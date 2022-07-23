@@ -210,6 +210,6 @@ public class TyouhoukeiGuzai : MonoBehaviour
         {
             Destroy(Hantei);
         }
-        GameObject childObject = Instantiate(HanteiPrefab, new Vector3(0, 34, 0), Quaternion.identity) as GameObject;
+        GameObject childObject = Instantiate(HanteiPrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
     }
 }

@@ -7,10 +7,11 @@ public class HanteiChange : MonoBehaviour
     public Material colorA;//変化したときのいろ
     public Material colorB;//もとに戻る色
     public string Tag;
+    GameObject child;
     // Start is called before the first frame update
     void Start()
     {
-
+        child = gameObject.transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class HanteiChange : MonoBehaviour
 
     void OnDisable()
     {
-        gameObject.GetComponent<Renderer>().material.color = colorB.color;
+        child.GetComponent<Renderer>().material.color = colorB.color;
     }
 
     //マウスカーソルがSphereに乗った時の処理
@@ -30,7 +31,7 @@ public class HanteiChange : MonoBehaviour
         if (gameObject.tag == Tag)
         {
             //Sphereの色をマテリアルと同じ色に変化させます。
-            gameObject.GetComponent<Renderer>().material.color = colorA.color;
+            child.GetComponent<Renderer>().material.color = colorA.color;
         }
     }
 
@@ -38,6 +39,6 @@ public class HanteiChange : MonoBehaviour
     private void OnMouseExit()
     {
         //Sphereの色がに戻ります。
-        gameObject.GetComponent<Renderer>().material.color = colorB.color;
+        child.GetComponent<Renderer>().material.color = colorB.color;
     }
 }
