@@ -15579,7 +15579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hashTags:
-  - Unity
+  - TUT
   - "\u591A\u5E78\u3055\u3093\u306E\u304A\u5F01\u5F53\u5C4B\u3055\u3093"
   clientID: 8becfe658999a37
 --- !u!82 &1228365931
