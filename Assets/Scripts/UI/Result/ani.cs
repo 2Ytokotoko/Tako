@@ -21,7 +21,7 @@ public class ani : MonoBehaviour
     void FixedUpdate()
     {
 
-        bool Flag = GameObject.Find("Player").GetComponent<Player>().flag;
+        bool Flag = GameObject.Find("PLAYERparent").GetComponent<Player>().flag;
      //   Debug.Log("ok3");
         if (Flag == true)
         {

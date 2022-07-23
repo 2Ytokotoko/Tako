@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7081198523931546391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8011195914894518184}
+  m_Layer: 0
+  m_Name: Mokutekiti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8011195914894518184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081198523931546391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.875}
+  m_LocalScale: {x: 0.6666667, y: 1, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8444413636594289222}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7905299422277033040
 GameObject:
   m_ObjectHideFlags: 0
@@ -36,6 +67,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8936363397251589011}
+  - {fileID: 8011195914894518184}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -80,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31e1c324f60494141a5ed5c8aa4976dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mokutekiti: {fileID: 2332774142107673726}
+  Mokutekiti: {fileID: 7081198523931546391}
   Tag: 324
   HanteiPrefab: {fileID: 7319285394791126583, guid: ef3927600c8417942b88de8210416449, type: 3}
   Nuke: datuHANNBAAGU
@@ -334,11 +366,6 @@ GameObject:
 --- !u!1 &2134983323873185343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4467379225142907442, guid: 5d7db5438583ff8428d0c64f5b8029f2, type: 3}
-  m_PrefabInstance: {fileID: 2332774142404877325}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2332774142107673726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 315177075, guid: 5d7db5438583ff8428d0c64f5b8029f2, type: 3}
   m_PrefabInstance: {fileID: 2332774142404877325}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &3621405039417735273 stripped

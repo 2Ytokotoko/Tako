@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3920726510114321806}
   - component: {fileID: 2822749135429896195}
   - component: {fileID: 7853727178509335830}
+  - component: {fileID: 799556078}
   m_Layer: 0
   m_Name: TOMATOparent
   m_TagString: TOMATO
@@ -35,6 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3180393435913532425}
+  - {fileID: 8815335135235780160}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f23ac948a609a48b667705730e3541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mokutekiti: {fileID: 6143719443343925814}
+  Mokutekiti: {fileID: 1264787462886979734}
   Tag: 222
   HanteiPrefab: {fileID: 3171432872967280570, guid: e0dd4fba2996f9e44aa9db61d0310636, type: 3}
   Nuke: datuTOMATO
@@ -219,6 +221,49 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &799556078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33251895590028166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df68438495928a6489862257de57d4dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1264787462886979734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8815335135235780160}
+  m_Layer: 0
+  m_Name: Mokutekiti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8815335135235780160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264787462886979734}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 162810691564630470}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6143719442191171190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -340,11 +385,6 @@ GameObject:
 --- !u!1 &5515566532636531189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1858256847214110595, guid: 11b37978892179444b133ae630726e21, type: 3}
-  m_PrefabInstance: {fileID: 6143719442191171190}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6143719443343925814 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1264311360, guid: 11b37978892179444b133ae630726e21, type: 3}
   m_PrefabInstance: {fileID: 6143719442191171190}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6200066227641699150 stripped

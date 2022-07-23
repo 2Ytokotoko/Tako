@@ -17,7 +17,8 @@ public class HanteiFall : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("TOMATO") || other.CompareTag("SYUUMAI") || other.CompareTag("MIITOBOURU")
-            || other.CompareTag("NAPORITANN") || other.CompareTag("PASUTA") || other.CompareTag("TAMAGOYAKI"))
+            || other.CompareTag("NAPORITANN") || other.CompareTag("PASUTA") || other.CompareTag("TAMAGOYAKI")
+            || other.CompareTag("HANNBAAGU") || other.CompareTag("EBIHURAI") || other.CompareTag("EBIHURAI2"))
         {
             transform.position = new Vector3(transform.position.x, other.transform.position.y + 2, transform.position.z);
         }

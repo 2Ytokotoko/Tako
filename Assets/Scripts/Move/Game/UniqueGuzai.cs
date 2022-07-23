@@ -22,9 +22,6 @@ public class UniqueGuzai : MonoBehaviour
     bool can = false;
     BoxCollider boxColider;
     KaitenNumber kaitenNumber;
-    public float x;
-    public float y;
-    public float z;
     public GameObject HanteiPrefab;
     public string Nuke;
     public GameObject Siri;
@@ -38,8 +35,8 @@ public class UniqueGuzai : MonoBehaviour
     {
         animator = GameObject.Find("Tako").GetComponent<Animator>();
         Mokutekiti.transform.parent = null;
-        Player = GameObject.Find("Player");
-        PlayerScript = GameObject.Find("Player").GetComponent<Player>();
+        Player = GameObject.Find("PLAYERparent");
+        PlayerScript = GameObject.Find("PLAYERparent").GetComponent<Player>();
         boxColider = GetComponent<BoxCollider>();
         kaitenNumber = FindObjectOfType<KaitenNumber>();
         Debug.Log(kaitenNumber.Unique);
@@ -49,19 +46,19 @@ public class UniqueGuzai : MonoBehaviour
         //ˆÈ‘O“Š‚°‚½Œ`‚ðˆø‚«Œp‚®
         if (kaitenNumber.Unique == 0)
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, z));
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }
         else if (kaitenNumber.Unique == 1)
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0, 90, z));
+            transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
         }
         else if (kaitenNumber.Unique == 2)
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0, 180, z));
+            transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
         }
         else if (kaitenNumber.Unique == 3)
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0, 270, z));
+            transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
         }
 
         //–³ŒÀ‚í‚«‚Å‘±‚¯‚Ä“Š‚°‚é
@@ -204,7 +201,7 @@ public class UniqueGuzai : MonoBehaviour
     {
         for (int turn = 0; turn < 3; turn++)
         {
-            transform.Rotate(-x, -y, 0);
+            transform.Rotate(0, -30, 0);
             yield return new WaitForSeconds(0.01f);
         }
         Kaiten = false;
@@ -215,7 +212,7 @@ public class UniqueGuzai : MonoBehaviour
     {
         for (int turn = 0; turn < 3; turn++)
         {
-            transform.Rotate(x, y, 0);
+            transform.Rotate(0, 30, 0);
             yield return new WaitForSeconds(0.01f);
         }
         Kaiten = false;
@@ -228,6 +225,6 @@ public class UniqueGuzai : MonoBehaviour
         {
             Destroy(Hantei);
         }
-        GameObject childObject = Instantiate(HanteiPrefab, new Vector3(0, 34, 0), Quaternion.identity) as GameObject;
+        GameObject childObject = Instantiate(HanteiPrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
     }
 }
