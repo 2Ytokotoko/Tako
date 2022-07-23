@@ -32,7 +32,7 @@ public class Guzai : MonoBehaviour
     void Start()
     {
         animator = GameObject.Find("Tako").GetComponent<Animator>();
-        Player = GameObject.Find("Player");
+        Player = GameObject.Find("PLAYERparent");
         boxCollider = GetComponent<BoxCollider>();
         Oya = GameObject.Find("EnterGuzai");
         audioSource = GetComponent<AudioSource>();

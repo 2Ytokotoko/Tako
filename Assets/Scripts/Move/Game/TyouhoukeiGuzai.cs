@@ -35,8 +35,8 @@ public class TyouhoukeiGuzai : MonoBehaviour
         animator = GameObject.Find("Tako").GetComponent<Animator>();
         Mokutekiti.transform.parent = null;
         kaitenNumber = FindObjectOfType<KaitenNumber>();
-        Player = GameObject.Find("Player");
-        PlayerScript = GameObject.Find("Player").GetComponent<Player>();
+        Player = GameObject.Find("PLAYERparent");
+        PlayerScript = GameObject.Find("PLAYERparent").GetComponent<Player>();
         boxColider = GetComponent<BoxCollider>();
         Oya = GameObject.Find("EnterGuzai");
         audioSource = GetComponent<AudioSource>();
