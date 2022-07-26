@@ -16,7 +16,7 @@ EditorBuildSettings:
     guid: 56e68fbb732b0dc4cb47fc851fbfec0b
   - enabled: 1
     path: "Assets/Scenes/\u03B1/SyuuseiBan/Game2.unity"
-    guid: 4d34e4b11754e3f44bcbb4e23280098c
+    guid: b6347b309360bdf4e9db36b6ca7b8676
   - enabled: 1
     path: "Assets/Scenes/\u03B1/SyuuseiBan/Game3.unity"
     guid: 30e174f066835394897fa7c82b2993c4
