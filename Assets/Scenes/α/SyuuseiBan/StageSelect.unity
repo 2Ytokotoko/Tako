@@ -1804,7 +1804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " \n  \u30DF\u30FC\u30C8\u30DC\u30FC\u30EB\u3092\uFF16\u500B\u4EE5\u4E0A\r\u3044\u308C\u308B\n\n"
+  m_Text: " \n  \u30DF\u30FC\u30C8\u30DC\u30FC\u30EB\u3092\uFF16\u500B\u4EE5\u4E0A\r\n\n"
 --- !u!222 &740247563
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1964,7 +1964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\n\u3000\u30FB\uFF13\uFF15\uFF10\uFF47\u4EE5\u4E0A"
+  m_Text: "\n\u3000\u30FB\uFF13\uFF15\uFF10g\u4EE5\u4E0A"
 --- !u!222 &847690904
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2044,7 +2044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3000\u30FB\u5510\u63DA\u3052\u3092\uFF13\u3064\u4EE5\u4E0A\u3044\u308C\u308B"
+  m_Text: "\u3000\u30FB\u5510\u63DA\u3052\u3092\uFF13\u3064\u4EE5\u4E0A"
 --- !u!222 &872077103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3086,7 +3086,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30FB\u30A8\u30D3\u30D5\u30E9\u30A4\u3092\uFF14\u500B\u4EE5\u4E0A\u3044\u308C\u308B\r\n\u30FB\uFF14\uFF10\uFF10\uFF47\u4EE5\u4E0A\r\n\u30FB\uFF14\uFF10\uFF10\uFF4B\uFF43\uFF41\uFF4C\u4EE5\u4E0A\r\n\u30FB\uFF11\uFF12\uFF10\uFF10\u5186\u4EE5\u4E0B\r\n\u30FB\uFF17\u5206\u4EE5\u5185\r\u306B\u30AF\u30EA\u30A2\n"
+  m_Text: "\u30FB\u30A8\u30D3\u30D5\u30E9\u30A4\u3092\uFF14\u500B\u4EE5\u4E0A\n\u30FB\uFF14\uFF10\uFF10\uFF47\u4EE5\u4E0A\r\n\u30FB\uFF14\uFF10\uFF10kcal\u4EE5\u4E0A\r\n\u30FB\uFF11\uFF12\uFF10\uFF10\u5186\u4EE5\u4E0B\r\n\u30FB\uFF17\u5206\u4EE5\u5185\r\u306B\u30AF\u30EA\u30A2\n"
 --- !u!222 &1030934201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3549,7 +3549,6 @@ MonoBehaviour:
   Odai2: {fileID: 953943617}
   Odai3: {fileID: 1410026948}
   free: {fileID: 58890251}
-  CountDown: {fileID: 1909651937}
 --- !u!4 &1334636746
 Transform:
   m_ObjectHideFlags: 0
@@ -4755,7 +4754,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u30FB\u30CA\u30DD\u30EA\u30BF\u30F3\u3092\uFF14\u500B\u4EE5\u4E0A\u3001    
-    \n\n\u30FB\uFF15\uFF10\uFF10\uFF4B\uFF43\uFF41\uFF4C\u4EE5\u4E0A\r\n\u30FB\uFF11\uFF10\uFF10\uFF10\u5186\u4EE5\u4E0B\r\n\u30FB\uFF15\u5206\u4EE5\u5185\u306B\u30AF\u30EA\u30A2\r\n"
+    \n\n\u30FB\uFF15\uFF10\uFF10kcal\u4EE5\u4E0A\r\n\u30FB\uFF11\uFF10\uFF10\uFF10\u5186\u4EE5\u4E0B\r\n\u30FB\uFF15\u5206\u4EE5\u5185\u306B\u30AF\u30EA\u30A2\r\n"
 --- !u!222 &1821274846
 CanvasRenderer:
   m_ObjectHideFlags: 0
