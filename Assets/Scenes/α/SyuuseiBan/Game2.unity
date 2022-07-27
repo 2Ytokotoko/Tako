@@ -672,11 +672,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27302047}
   m_CullTransparentMesh: 1
---- !u!1 &28532912 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4264005894428777544, guid: 11b37978892179444b133ae630726e21, type: 3}
-  m_PrefabInstance: {fileID: 9145508813619805348}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &34970886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3770,11 +3765,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287620990}
   m_CullTransparentMesh: 1
---- !u!1 &288337134 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6467024581400089560, guid: d0a8d801d709a24459158f1fcf854f8c, type: 3}
-  m_PrefabInstance: {fileID: 4985514213545397747}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &294859851
 GameObject:
   m_ObjectHideFlags: 0
@@ -4880,11 +4870,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ab3cbccd6167f4e4ba5b669cf8e85a50, type: 3}
   m_PrefabInstance: {fileID: 392221018}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &392330701 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1450538966871687214, guid: eecd8b7276334644fb563b89a296a0f8, type: 3}
-  m_PrefabInstance: {fileID: 3155499482578367781}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &395334503
 GameObject:
@@ -8375,7 +8360,7 @@ GameObject:
   - component: {fileID: 631772564}
   - component: {fileID: 631772567}
   - component: {fileID: 631772566}
-  - component: {fileID: 631772565}
+  - component: {fileID: 631772568}
   m_Layer: 5
   m_Name: OdaiName
   m_TagString: Untagged
@@ -8403,24 +8388,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: -116.54513}
   m_SizeDelta: {x: -556.87, y: -374.9098}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &631772565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631772563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37c034622da72cd419c1b05d4370045b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NameText: {fileID: 631772566}
-  Hyouka0: {fileID: 21300000, guid: f05f3b91699a0bd49b0b9c8ee3909001, type: 3}
-  Hyouka1: {fileID: 21300000, guid: 54bf3f59cf8425346a277e5f249fd43d, type: 3}
-  Hyouka2: {fileID: 21300000, guid: 0af9f7f39f2dd9643b25440171f7ef03, type: 3}
-  Hyouka3: {fileID: 21300000, guid: d842685b8dc6239478487b6fd1f575ed, type: 3}
-  myPhoto: {fileID: 1391472009}
 --- !u!114 &631772566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8463,6 +8430,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631772563}
   m_CullTransparentMesh: 1
+--- !u!114 &631772568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631772563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43806eb58b357e8478124089b1a4809c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: {fileID: 631772566}
+  Hyouka0: {fileID: 21300000, guid: b43a68391593a934bab528e9b5db6590, type: 3}
+  Hyouka1: {fileID: 21300000, guid: 622e31ad7d4090342861aeb98d069d1b, type: 3}
+  Hyouka2: {fileID: 21300000, guid: 569b570e685990e4aa56dea0d2b027dc, type: 3}
+  Hyouka3: {fileID: 21300000, guid: 19a73dd4167639d438ab7e5386c44005, type: 3}
+  Hyouka4: {fileID: 21300000, guid: 99b8312173d333848866f77416c11c8d, type: 3}
+  myPhoto: {fileID: 1391472009}
 --- !u!1001 &649058820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8694,11 +8680,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682248348}
   m_CullTransparentMesh: 1
---- !u!1 &687560321 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8148974805414693173, guid: 451ad355626c70f4194ca0aff7a440af, type: 3}
-  m_PrefabInstance: {fileID: 3266173716052992029}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &690261077
 GameObject:
   m_ObjectHideFlags: 0
@@ -9262,11 +9243,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ab3cbccd6167f4e4ba5b669cf8e85a50, type: 3}
   m_PrefabInstance: {fileID: 768982600}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &771240460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6009775864667422231, guid: 2b1bfdc0bf932c247af1b1f6ab6970b4, type: 3}
-  m_PrefabInstance: {fileID: 8341757416843639861}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &775809697
 GameObject:
@@ -17295,11 +17271,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273517010}
   m_CullTransparentMesh: 1
---- !u!1 &1293417095 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6111822063504612649, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
-  m_PrefabInstance: {fileID: 1380656709204291349}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1301552525
 GameObject:
   m_ObjectHideFlags: 0
@@ -17397,11 +17368,6 @@ Transform:
   m_Father: {fileID: 346316615}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1304586032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3925309681345709652, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
-  m_PrefabInstance: {fileID: 8774606081123467434}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1311037649
 GameObject:
   m_ObjectHideFlags: 0
@@ -18448,11 +18414,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380813447}
   m_CullTransparentMesh: 1
---- !u!1 &1384797600 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8660935156539032194, guid: 58d6266de6ec95440ae5ac104a9eb0e4, type: 3}
-  m_PrefabInstance: {fileID: 7588091480697874504}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1384834174
 GameObject:
   m_ObjectHideFlags: 0
@@ -18885,11 +18846,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439507138}
   m_CullTransparentMesh: 1
---- !u!1 &1441477980 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3275195162276612961, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
-  m_PrefabInstance: {fileID: 4780107267462262319}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1444636791
 GameObject:
   m_ObjectHideFlags: 0
@@ -21964,11 +21920,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670781410}
   m_CullTransparentMesh: 1
---- !u!1 &1674773419 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 61408285371024838, guid: 5d7db5438583ff8428d0c64f5b8029f2, type: 3}
-  m_PrefabInstance: {fileID: 6616144015989586242}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1676351791
 GameObject:
   m_ObjectHideFlags: 0
@@ -25098,11 +25049,6 @@ MonoBehaviour:
   PASUTA: 60
   POPPUCONSHURINPU: 30
   TAKO: 20
---- !u!1 &1990533405 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2519453068648339394, guid: f5e6f93788dbf46458a86a1f067c5665, type: 3}
-  m_PrefabInstance: {fileID: 8258741799115445171}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1994076833
 GameObject:
   m_ObjectHideFlags: 0
@@ -27912,7 +27858,7 @@ PrefabInstance:
     - target: {fileID: 1380656708771584514, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
       propertyPath: TAMAGOYAKI
       value: 
-      objectReference: {fileID: 1293417095}
+      objectReference: {fileID: 0}
     - target: {fileID: 1380656708771584514, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
       propertyPath: POPPUCONSHURINPU
       value: 
@@ -28111,7 +28057,7 @@ MonoBehaviour:
   PASUTA: {fileID: 0}
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
-  POPPUCONSHURINPU: {fileID: 392330701}
+  POPPUCONSHURINPU: {fileID: 0}
 --- !u!114 &3155499482578367784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28230,7 +28176,7 @@ PrefabInstance:
     - target: {fileID: 3266173715657816490, guid: 451ad355626c70f4194ca0aff7a440af, type: 3}
       propertyPath: BUROKKORII
       value: 
-      objectReference: {fileID: 687560321}
+      objectReference: {fileID: 0}
     - target: {fileID: 3266173715657816490, guid: 451ad355626c70f4194ca0aff7a440af, type: 3}
       propertyPath: MIITOBOURU
       value: 
@@ -28441,7 +28387,7 @@ PrefabInstance:
     - target: {fileID: 475971550987316931, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
       propertyPath: SYUUMAI
       value: 
-      objectReference: {fileID: 1441477980}
+      objectReference: {fileID: 0}
     - target: {fileID: 475971550987316931, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
       propertyPath: EBIHURAI
       value: 
@@ -28647,7 +28593,7 @@ MonoBehaviour:
   TOMATO: {fileID: 0}
   BUROKKORII: {fileID: 0}
   KARAAGE: {fileID: 0}
-  EBIHURAI: {fileID: 288337134}
+  EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
   TAKO: {fileID: 0}
   GOHAN: {fileID: 0}
@@ -28759,7 +28705,7 @@ MonoBehaviour:
   NAPORITANN: {fileID: 0}
   PASUTA: {fileID: 0}
   MIITOBOURU: {fileID: 0}
-  HANNBAAGU: {fileID: 1674773419}
+  HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
 --- !u!1001 &7588091480697874504
 PrefabInstance:
@@ -28854,7 +28800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TOMATO: {fileID: 0}
   BUROKKORII: {fileID: 0}
-  KARAAGE: {fileID: 1384797600}
+  KARAAGE: {fileID: 0}
   EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
   TAKO: {fileID: 0}
@@ -28965,7 +28911,7 @@ MonoBehaviour:
   GOHAN: {fileID: 0}
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
-  PASUTA: {fileID: 1990533405}
+  PASUTA: {fileID: 0}
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
@@ -29070,7 +29016,7 @@ MonoBehaviour:
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
   PASUTA: {fileID: 0}
-  MIITOBOURU: {fileID: 771240460}
+  MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
 --- !u!1001 &8774606081123467434
@@ -29127,7 +29073,7 @@ PrefabInstance:
     - target: {fileID: 6286447150972512140, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
       propertyPath: NAPORITANN
       value: 
-      objectReference: {fileID: 1304586032}
+      objectReference: {fileID: 0}
     - target: {fileID: 6286447150972512140, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
       propertyPath: TAMAGOYAKI
       value: 
@@ -29273,7 +29219,7 @@ PrefabInstance:
     - target: {fileID: 9145508813524594073, guid: 11b37978892179444b133ae630726e21, type: 3}
       propertyPath: TOMATO
       value: 
-      objectReference: {fileID: 28532912}
+      objectReference: {fileID: 0}
     - target: {fileID: 9145508813524594073, guid: 11b37978892179444b133ae630726e21, type: 3}
       propertyPath: m_Enabled
       value: 1

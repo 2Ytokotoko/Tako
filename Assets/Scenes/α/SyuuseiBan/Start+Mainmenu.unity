@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -961,7 +961,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &270150889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2878,10 +2878,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 0
   myPhoto: {fileID: 409205317}
-  I1: {fileID: 21300000, guid: 6b6d507348339a643bed3364a59393a4, type: 3}
-  I2: {fileID: 21300000, guid: f211449d5e9c2a244874d87329279b77, type: 3}
-  I3: {fileID: 21300000, guid: b1fa0f9a3a3078340bd4a55adbce116a, type: 3}
-  I4: {fileID: 21300000, guid: da97166f972c4474fa27176c642997ce, type: 3}
+  I1: {fileID: 21300000, guid: edf01475baedc334e8cf53c3a547a760, type: 3}
+  I2: {fileID: 21300000, guid: bc095ed7aef9d5d4c9b2dec60f7c1fd5, type: 3}
+  I3: {fileID: 21300000, guid: 405254fadc0dd9c49a68ab5040e59da7, type: 3}
+  I4: {fileID: 21300000, guid: c37971399380c6d41b659ebc93869f4f, type: 3}
+  I5: {fileID: 21300000, guid: 285d610c83838674c915ae6e7720198e, type: 3}
   se: {fileID: 8300000, guid: 7e31a950a1b1c944689c64d82fb025fe, type: 3}
 --- !u!82 &503749843
 AudioSource:
@@ -6590,7 +6591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1298852539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7585,8 +7586,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cd2879c9218dc24b8848ef4ba7d644b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 0}
-  targetSlider: {fileID: 0}
 --- !u!1 &1497268489
 GameObject:
   m_ObjectHideFlags: 0
@@ -8926,6 +8925,7 @@ MonoBehaviour:
   I2: {fileID: 21300000, guid: 9c76ad3863135464c80b38f746757c3b, type: 3}
   I3: {fileID: 21300000, guid: 4ac222e29787dcd4aa2ea9de7bb6e351, type: 3}
   I4: {fileID: 21300000, guid: 3bc59c696422887459a556b95c6d853a, type: 3}
+  I5: {fileID: 0}
   se: {fileID: 0}
 --- !u!1 &1736294913
 GameObject:
