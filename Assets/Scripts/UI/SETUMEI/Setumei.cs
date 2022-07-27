@@ -7,12 +7,13 @@ public class Setumei : MonoBehaviour
     //‰Ÿ‚³‚ê‚½‰ñ”‚ðŠi”[‚·‚é•Ï”
     public int counter = 0;
     const int counterMin = 0;  //Å‘å’l
-    const int counterMax = 3;  //Å‘å’l
+    const int counterMax = 4;  //Å‘å’l
     public Image myPhoto;
     public Sprite I1;
     public Sprite I2;
     public Sprite I3;
     public Sprite I4;
+    public Sprite I5;
     private AudioSource audioSource;
     public AudioClip se;
 
@@ -42,7 +43,7 @@ public class Setumei : MonoBehaviour
         if (counter >= counterMax)
         {
 
-            counter = 3;
+            counter = 4;
         }
     }
     public void ClickL()
@@ -80,6 +81,10 @@ public class Setumei : MonoBehaviour
         {
 
             myPhoto.sprite = I4;
+        }
+        if(counter>=4)
+        {
+            myPhoto.sprite = I5;
         }
 
     }
