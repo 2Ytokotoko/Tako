@@ -138,7 +138,7 @@ public class GameStart: MonoBehaviour
 		_textCountdown.gameObject.SetActive(false);
 		_imageMask.gameObject.SetActive(false);
 		free.SetActive(false);
-		SceneManager.LoadScene("FreeGame");
+		SceneManager.LoadScene("FreeStage");
 	}
 
 }
