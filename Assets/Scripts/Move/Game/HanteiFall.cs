@@ -18,9 +18,15 @@ public class HanteiFall : MonoBehaviour
     {
         if (other.CompareTag("TOMATO") || other.CompareTag("SYUUMAI") || other.CompareTag("MIITOBOURU")
             || other.CompareTag("NAPORITANN") || other.CompareTag("PASUTA") || other.CompareTag("TAMAGOYAKI")
-            || other.CompareTag("HANNBAAGU") || other.CompareTag("EBIHURAI") || other.CompareTag("EBIHURAI2"))
+            || other.CompareTag("HANNBAAGU") || other.CompareTag("EBIHURAI") || other.CompareTag("EBIHURAI2")
+            || other.CompareTag("POPPUCONSHURINPU"))
         {
             transform.position = new Vector3(transform.position.x, other.transform.position.y + 2, transform.position.z);
+        }
+
+        if (other.CompareTag("POPPUCONSHURINPU2"))
+        {
+            transform.position = new Vector3(transform.position.x, other.transform.position.y + 1, transform.position.z);
         }
 
         if (other.CompareTag("KARAAGE"))
@@ -46,11 +52,6 @@ public class HanteiFall : MonoBehaviour
         if (other.CompareTag("POPPUCONSHURINPU"))
         {
             transform.position = new Vector3(transform.position.x, other.transform.position.y + 1.5f, transform.position.z);
-        }
-
-        if (other.CompareTag("POPPUCONSHURINPU2"))
-        {
-            transform.position = new Vector3(transform.position.x, other.transform.position.y + 0.5f, transform.position.z);
         }
 
         if (other.CompareTag("BUROKKORII"))
