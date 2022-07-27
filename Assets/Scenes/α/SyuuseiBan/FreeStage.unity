@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
+  m_IndirectSpecularColor: {r: 0.16003798, g: 0.19977067, b: 0.2786971, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -243,7 +243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &10452535
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17180,7 +17180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D5\u30EA\u30FC\u30B9\u30C6\u30FC\u30B8\u306B\n\u304A\u984C\u306F\u306A\u3044\u3088\uFF01\n\n\u81EA\u5206\u3060\u3051\u306E\u304A\u5F01\u5F53\u3092\u4F5C\u308D\u3046\uFF01"
+  m_Text: "\u30D5\u30EA\u30FC\u30E2\u30FC\u30C9\u306B\n\u304A\u984C\u306F\u306A\u3044\u3088\uFF01\n\n\u81EA\u5206\u3060\u3051\u306E\u304A\u5F01\u5F53\u3092\u4F5C\u308D\u3046\uFF01"
 --- !u!222 &1103929154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19586,7 +19586,7 @@ MonoBehaviour:
   KARAAGE: {fileID: 0}
   EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
-  TAKO: {fileID: 0}
+  TAKO: {fileID: 1814924886}
   GOHAN: {fileID: 0}
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
@@ -23481,7 +23481,7 @@ MonoBehaviour:
   EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
   TAKO: {fileID: 0}
-  GOHAN: {fileID: 0}
+  GOHAN: {fileID: 745084626}
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
   PASUTA: {fileID: 0}
@@ -33030,8 +33030,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1380656708771584514, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1380656708771584514, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
+      propertyPath: TAMAGOYAKI
+      value: 
+      objectReference: {fileID: 1380656709204291352}
     - target: {fileID: 1487219817097178108, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -33099,31 +33103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df68438495928a6489862257de57d4dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1380656709204291352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &1380656709204291352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6111822063504612649, guid: ad331ba91b88eeb488216e56d465585c, type: 3}
+  m_PrefabInstance: {fileID: 1380656709204291349}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380656709204291350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3765924f037644fb096febdf660d89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TOMATO: {fileID: 0}
-  BUROKKORII: {fileID: 0}
-  KARAAGE: {fileID: 0}
-  EBIHURAI: {fileID: 0}
-  TAMAGOYAKI: {fileID: 0}
-  TAKO: {fileID: 0}
-  GOHAN: {fileID: 0}
-  SYUUMAI: {fileID: 0}
-  NAPORITANN: {fileID: 0}
-  PASUTA: {fileID: 0}
-  MIITOBOURU: {fileID: 0}
-  HANNBAAGU: {fileID: 0}
-  POPPUCONSHURINPU: {fileID: 0}
 --- !u!1001 &3155499482578367781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33222,7 +33206,7 @@ MonoBehaviour:
   PASUTA: {fileID: 0}
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
-  POPPUCONSHURINPU: {fileID: 0}
+  POPPUCONSHURINPU: {fileID: 3155499482578367786}
 --- !u!114 &3155499482578367784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33247,6 +33231,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942e64bb0c1bb294aade49a236ef70b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3155499482578367786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1450538966871687214, guid: eecd8b7276334644fb563b89a296a0f8, type: 3}
+  m_PrefabInstance: {fileID: 3155499482578367781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3266173716052992029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33338,7 +33327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TOMATO: {fileID: 0}
-  BUROKKORII: {fileID: 0}
+  BUROKKORII: {fileID: 3266173716052992033}
   KARAAGE: {fileID: 0}
   EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
@@ -33350,6 +33339,11 @@ MonoBehaviour:
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &3266173716052992033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8148974805414693173, guid: 451ad355626c70f4194ca0aff7a440af, type: 3}
+  m_PrefabInstance: {fileID: 3266173716052992029}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4780107267462262319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33358,8 +33352,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1146351279}
     m_Modifications:
     - target: {fileID: 475971550987316931, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
+      propertyPath: SYUUMAI
+      value: 
+      objectReference: {fileID: 4780107267462262323}
+    - target: {fileID: 475971550987316931, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5034148376548480116, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
       propertyPath: m_RootOrder
@@ -33440,31 +33438,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df68438495928a6489862257de57d4dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4780107267462262322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &4780107267462262323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3275195162276612961, guid: fc0d8df0f02cf134895bfd72abbbf136, type: 3}
+  m_PrefabInstance: {fileID: 4780107267462262319}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4780107267462262320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3765924f037644fb096febdf660d89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TOMATO: {fileID: 0}
-  BUROKKORII: {fileID: 0}
-  KARAAGE: {fileID: 0}
-  EBIHURAI: {fileID: 0}
-  TAMAGOYAKI: {fileID: 0}
-  TAKO: {fileID: 0}
-  GOHAN: {fileID: 0}
-  SYUUMAI: {fileID: 0}
-  NAPORITANN: {fileID: 0}
-  PASUTA: {fileID: 0}
-  MIITOBOURU: {fileID: 0}
-  HANNBAAGU: {fileID: 0}
-  POPPUCONSHURINPU: {fileID: 0}
 --- !u!1001 &4985514213545397747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33558,7 +33536,7 @@ MonoBehaviour:
   TOMATO: {fileID: 0}
   BUROKKORII: {fileID: 0}
   KARAAGE: {fileID: 0}
-  EBIHURAI: {fileID: 0}
+  EBIHURAI: {fileID: 4985514213545397751}
   TAMAGOYAKI: {fileID: 0}
   TAKO: {fileID: 0}
   GOHAN: {fileID: 0}
@@ -33568,6 +33546,11 @@ MonoBehaviour:
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &4985514213545397751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6467024581400089560, guid: d0a8d801d709a24459158f1fcf854f8c, type: 3}
+  m_PrefabInstance: {fileID: 4985514213545397747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6616144015989586242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33669,8 +33652,13 @@ MonoBehaviour:
   NAPORITANN: {fileID: 0}
   PASUTA: {fileID: 0}
   MIITOBOURU: {fileID: 0}
-  HANNBAAGU: {fileID: 0}
+  HANNBAAGU: {fileID: 6616144015989586246}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &6616144015989586246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 61408285371024838, guid: 5d7db5438583ff8428d0c64f5b8029f2, type: 3}
+  m_PrefabInstance: {fileID: 6616144015989586242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7588091480697874504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33763,7 +33751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TOMATO: {fileID: 0}
   BUROKKORII: {fileID: 0}
-  KARAAGE: {fileID: 0}
+  KARAAGE: {fileID: 7588091480697874508}
   EBIHURAI: {fileID: 0}
   TAMAGOYAKI: {fileID: 0}
   TAKO: {fileID: 0}
@@ -33774,6 +33762,11 @@ MonoBehaviour:
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &7588091480697874508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8660935156539032194, guid: 58d6266de6ec95440ae5ac104a9eb0e4, type: 3}
+  m_PrefabInstance: {fileID: 7588091480697874504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8258741799115445171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33873,10 +33866,15 @@ MonoBehaviour:
   GOHAN: {fileID: 0}
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
-  PASUTA: {fileID: 0}
+  PASUTA: {fileID: 8258741799115445175}
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &8258741799115445175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2519453068648339394, guid: f5e6f93788dbf46458a86a1f067c5665, type: 3}
+  m_PrefabInstance: {fileID: 8258741799115445171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8341757416843639861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33977,9 +33975,14 @@ MonoBehaviour:
   SYUUMAI: {fileID: 0}
   NAPORITANN: {fileID: 0}
   PASUTA: {fileID: 0}
-  MIITOBOURU: {fileID: 0}
+  MIITOBOURU: {fileID: 8341757416843639865}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &8341757416843639865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6009775864667422231, guid: 2b1bfdc0bf932c247af1b1f6ab6970b4, type: 3}
+  m_PrefabInstance: {fileID: 8341757416843639861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8774606081123467434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33991,6 +33994,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6286447150972512140, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
+      propertyPath: NAPORITANN
+      value: 
+      objectReference: {fileID: 8774606081123467438}
     - target: {fileID: 8432075972845299811, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
       propertyPath: m_Name
       value: Neapolitan
@@ -34083,6 +34090,11 @@ MonoBehaviour:
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &8774606081123467438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3925309681345709652, guid: 9a7449a96c8693f45824359ef0044198, type: 3}
+  m_PrefabInstance: {fileID: 8774606081123467434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9145508813619805348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34173,7 +34185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3765924f037644fb096febdf660d89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TOMATO: {fileID: 0}
+  TOMATO: {fileID: 9145508813619805352}
   BUROKKORII: {fileID: 0}
   KARAAGE: {fileID: 0}
   EBIHURAI: {fileID: 0}
@@ -34186,3 +34198,8 @@ MonoBehaviour:
   MIITOBOURU: {fileID: 0}
   HANNBAAGU: {fileID: 0}
   POPPUCONSHURINPU: {fileID: 0}
+--- !u!1 &9145508813619805352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4264005894428777544, guid: 11b37978892179444b133ae630726e21, type: 3}
+  m_PrefabInstance: {fileID: 9145508813619805348}
+  m_PrefabAsset: {fileID: 0}

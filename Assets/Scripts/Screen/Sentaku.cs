@@ -95,7 +95,7 @@ public class Sentaku : MonoBehaviour
     IEnumerator LoadStartFS()
     {
         yield return new WaitForSeconds(4f);
-        SceneManager.LoadScene("FreeGame");
+        SceneManager.LoadScene("FreeStage");
     }
 
     //ƒ^ƒCƒgƒ‹‚É–ß‚é
